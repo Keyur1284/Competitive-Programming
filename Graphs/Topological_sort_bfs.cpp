@@ -1,6 +1,8 @@
 //Topological sort is valid only for directed acyclic graphs
 //Defination : Linear ordering of vertices such that if there is an edge u -> v then u appears before v in that ordering
 
+//Topological done by bfs is also known as Kahn's Algorithm
+
 #include <bits/stdc++.h>
 using namespace std;
 
