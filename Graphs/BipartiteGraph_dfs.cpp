@@ -1,3 +1,5 @@
+//Defination : Graphs which can be colored using 2 colors such that no two adjacent nodes have same color
+
 #include <bits/stdc++.h>
 using namespace std;
 
