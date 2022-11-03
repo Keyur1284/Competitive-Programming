@@ -3,6 +3,9 @@ using namespace std;
 
 bool bipartiteDfs (int node, vector <int> adj[], vector <int> &color)
 {
+    if (color [node] == -1)
+        color[node] = 1;
+
     for (auto it : adj[node])
     {
         if (color[it] == -1)
@@ -28,8 +31,6 @@ bool checkBipartite(vector <int> adj[], int v)
     {
         if (color[i] == -1)
         {
-            color[i] = 1;
-
             if (bipartiteDfs(i, adj, color) == false)
                 return false;
         }
