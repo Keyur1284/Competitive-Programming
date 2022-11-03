@@ -50,7 +50,7 @@ int main()
     // 7 8
     // 8 9
     // 9 7
-    
+
     int v, e;
     cin >> v >> e;
 
