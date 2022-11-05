@@ -19,9 +19,9 @@ freopen("output.txt", "w", stdout);
 #define pb push_back
 #define f first
 #define s second
-#define lb lower_bound
-#define ub upper_bound
 #define all(x) x.begin(), x.end()
+#define lb(x, key) lower_bound(all(x), key)
+#define ub(x, key) upper_bound(all(x), key)
 #define rall(x) x.rbegin(), x.rend()
 #define ins insert
 #define F0R(i, n) for (ll i = 0; i < n; i++)
