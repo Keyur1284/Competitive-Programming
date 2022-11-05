@@ -46,6 +46,18 @@ void Union (int u, int v, vector<int> &parent, vector<int> &rank)
 
 int main()
 {
+	//input
+	// 6 9
+	// 5 4 9
+	// 5 1 4
+	// 4 3 5
+	// 4 2 3
+	// 4 1 1
+	// 1 2 2
+	// 3 2 3
+	// 3 6 8
+	// 2 6 7
+	
 	int n, m;
 	cin >> n >> m;
 	vector<Node> edges; 
@@ -59,7 +71,7 @@ int main()
 
 	sort(edges.begin(), edges.end(), comp); 
 	
-	vector<int> parent(n+1), rank(n, 0);
+	vector<int> parent(n+1), rank(n+1, 0);
 	
     for(int i = 1; i<=n; i++) 
 	    parent[i] = i; 
