@@ -20,8 +20,8 @@ freopen("output.txt", "w", stdout);
 #define p(x) cout << x << '\n'
 #define ps(x) cout << x << " "
 #define sz(x) (ll)(x).size()
-#define f first
-#define s second
+#define fi first
+#define se second
 #define all(x) x.begin(), x.end()
 #define lb(x, key) lower_bound(all(x), key)
 #define ub(x, key) upper_bound(all(x), key)
