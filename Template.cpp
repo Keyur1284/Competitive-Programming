@@ -5,6 +5,11 @@ freopen("output.txt", "w", stdout);
 
 #include <bits/stdc++.h>
 #define ll long long int
+#define pi pair <int, int>
+#define pl pair <ll, ll>
+#define vi vector <int>
+#define vpi vector <pi>
+#define vpl vector <pl>
 #define vl vector <ll>
 #define endl '\n'
 #define nl cout << '\n' 
@@ -15,15 +20,12 @@ freopen("output.txt", "w", stdout);
 #define p(x) cout << x << '\n'
 #define ps(x) cout << x << " "
 #define sz(x) (ll)(x).size()
-#define mp make_pair
-#define pb push_back
 #define f first
 #define s second
 #define all(x) x.begin(), x.end()
 #define lb(x, key) lower_bound(all(x), key)
 #define ub(x, key) upper_bound(all(x), key)
 #define rall(x) x.rbegin(), x.rend()
-#define ins insert
 #define F0R(i, n) for (ll i = 0; i < n; i++)
 #define FOR(i, a, b) for (ll i = a; i <= b; i++)
 #define RF0R(i, n) for (ll i = n - 1; i >= 0; i--)
