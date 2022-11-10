@@ -33,6 +33,71 @@ freopen("output.txt", "w", stdout);
 #define trav(it, a) for (auto &it : a)
 using namespace std;
 
+class DSU 
+{
+private:
+	vl parent, size, rank;
+ 
+public:
+	DSU (ll n) 
+    {
+		FOR(i, 0, n) 
+        {
+			parent.eb(i);
+			size.eb(1);
+			rank.eb(0);
+		}
+	}
+
+    ll findPar(ll node)
+    {
+        if(node == parent[node])
+            return node;
+
+        return parent[node] = findPar(parent[node]);
+    }
+ 
+    void UnionRank(ll u, ll v)
+    {
+        u = findPar(u);
+        v = findPar(v);
+
+        if(rank[u] < rank[v])
+            parent[u] = v;
+
+        else if (rank[v] < rank[u])
+            parent[v] = u;
+
+        else if (rank[u] == rank[v])
+        {
+            parent[v] = u;
+            rank[u]++;
+        }
+    }
+
+    void UnionSize(ll u, ll v)
+    {
+        u = findPar(u);
+        v = findPar(v);
+
+        if(u == v)
+            return;
+
+        else if (size[u] < size[v])
+        {
+            parent[u] = v;
+            size[v] += size[u];
+        }
+
+        else if (size[u] >= size[v])
+        {
+            parent[v] = u;
+            size[u] += size[v];
+        }
+    }
+
+};
+
 ll gcd(ll x, ll y)
 {
     if (x == 0)
