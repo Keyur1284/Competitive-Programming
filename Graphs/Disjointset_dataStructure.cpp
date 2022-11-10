@@ -68,7 +68,7 @@ int main()
         int u, v;
         cin >> u >> v;
 
-        Union(u, v);
+        UnionRank(u, v);
     }
     return 0;
 
