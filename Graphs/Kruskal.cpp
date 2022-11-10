@@ -1,3 +1,7 @@
+// Spanning tree :  Whenever we can draw a tree from a given undirected weighted graph such that 
+// this tree has all the N nodes and the no. of edges is N - 1 such that every node is reachable from every other node.
+// Minimum spanning tree(MST) has minimum sum of edge-weight. 
+
 #include<bits/stdc++.h>
 using namespace std;
 
