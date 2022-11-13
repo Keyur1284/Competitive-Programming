@@ -1,0 +1,16 @@
+Lec 1 Notes : https://takeuforward.org/data-structure/dynamic-programming-introduction/
+
+
+Lec 2 Notes : https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/
+
+Points to remember:
+Step1. Identify a DP Problem.
+Step2. To solve the problem after identification.
+   1. Try to represent the given problem in terms of index.
+   2. Do all possible operations on that index according to the problem statement.
+   3. To count all possible ways - sum of all stuff.
+        To find minimum/maximum - Take Minimum/maximum of all stuff.
+
+
+Lec 3 Notes : https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/
+
