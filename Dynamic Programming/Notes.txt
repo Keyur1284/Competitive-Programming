@@ -21,3 +21,4 @@ Lec 4 Notes : https://takeuforward.org/data-structure/dynamic-programming-frog-j
 Lec 5 Notes : https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/
 
 
+Lec 6 Notes : https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/
