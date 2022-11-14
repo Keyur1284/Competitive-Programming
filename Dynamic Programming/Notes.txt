@@ -14,3 +14,10 @@ Step2. To solve the problem after identification.
 
 Lec 3 Notes : https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/
 
+
+Lec 4 Notes : https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/
+
+
+Lec 5 Notes : https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/
+
+
