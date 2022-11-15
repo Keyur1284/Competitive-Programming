@@ -22,3 +22,6 @@ Lec 5 Notes : https://takeuforward.org/data-structure/maximum-sum-of-non-adjacen
 
 
 Lec 6 Notes : https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/
+
+
+Lec 7 Notes : https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/
