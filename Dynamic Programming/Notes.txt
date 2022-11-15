@@ -25,3 +25,15 @@ Lec 6 Notes : https://takeuforward.org/data-structure/dynamic-programming-house-
 
 
 Lec 7 Notes : https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/
+
+
+Lec 8 Notes : https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/
+
+
+Lec 9 Notes : https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/
+
+
+Lec 10 Notes : https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/
+
+
+Lec 11 Notes : https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/
