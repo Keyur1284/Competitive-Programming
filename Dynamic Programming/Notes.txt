@@ -37,3 +37,9 @@ Lec 10 Notes : https://takeuforward.org/data-structure/minimum-path-sum-in-a-gri
 
 
 Lec 11 Notes : https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/
+
+
+Lec 12 Notes : https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/
+
+
+Lec 13 Notes : https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/
