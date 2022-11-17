@@ -38,32 +38,26 @@ using namespace std;
 
 bool subsetSumToK(int n, int k, vector<int> &arr) {
     
-    vector <vector <bool>> dp (n, vector <bool> (k+1, false));
+    vector <vector <bool>> dp (n + 1, vector <bool> (k+1, false));
     
-    for (int index = 0; index < n; index++)
+    for (int index = 0; index <= n; index++)
         dp[index][0] = true;
     
-    for (int index = 0; index < n; index++)
+    for (int index = 1; index <= n; index++)
     {
         for (int target = 1; target <= k; target++)
         {
-            if (index == 0)
-            {
-                dp[index][target] = (arr[index] == target);
-                continue;
-            }
-            
             bool left = dp[index - 1][target];
             bool taken = false;
             
-            if (arr[index] <= target)
-                taken = dp[index - 1][target - arr[index]];
+            if (arr[index - 1] <= target)
+                taken = dp[index - 1][target - arr[index - 1]];
             
             dp[index][target] = taken | left;
         }
     }
     
-    return dp[n-1][k];
+    return dp[n][k];
 }
 
 
@@ -77,10 +71,7 @@ bool subsetSumToK(int n, int k, vector<int> &arr) {
     
     dp[0] = true;
     
-    if (arr[0] <= k)
-        dp[arr[0]] = true;
-    
-    for (int index = 1; index < n; index++)
+    for (int index = 1; index <= n; index++)
     {
         vector <bool> temp (k+1, false);
         temp[0] = true;
@@ -90,8 +81,8 @@ bool subsetSumToK(int n, int k, vector<int> &arr) {
             bool left = dp[target];
             bool taken = false;
             
-            if (arr[index] <= target)
-                taken = dp[target - arr[index]];
+            if (arr[index - 1] <= target)
+                taken = dp[target - arr[index - 1]];
             
             temp[target] = taken | left;
         }
