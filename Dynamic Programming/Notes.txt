@@ -43,3 +43,6 @@ Lec 12 Notes : https://takeuforward.org/data-structure/minimum-maximum-falling-p
 
 
 Lec 13 Notes : https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/
+
+
+Lec 14 Notes : https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/
