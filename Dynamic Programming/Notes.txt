@@ -46,3 +46,6 @@ Lec 13 Notes : https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-frie
 
 
 Lec 14 Notes : https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/
+
+
+Lec 15 Notes : https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/
