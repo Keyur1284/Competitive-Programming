@@ -74,3 +74,4 @@ Lec 19 Notes : https://takeuforward.org/data-structure/0-1-knapsack-dp-19/
 Lec 20 Notes : https://takeuforward.org/data-structure/minimum-coins-dp-20/
 
 
+Lec 21 Notes : https://takeuforward.org/data-structure/target-sum-dp-21/
