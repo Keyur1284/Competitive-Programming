@@ -71,3 +71,6 @@ Lec 18 Notes : https://takeuforward.org/data-structure/count-partitions-with-giv
 Lec 19 Notes : https://takeuforward.org/data-structure/0-1-knapsack-dp-19/
 
 
+Lec 20 Notes : https://takeuforward.org/data-structure/find-minimum-number-of-coins/
+
+
