@@ -55,3 +55,8 @@ Lec 16 Notes : https://takeuforward.org/data-structure/partition-set-into-2-subs
 
 
 Lec 17 Notes : https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/
+
+
+Lec 18 Notes : https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/
+
+
