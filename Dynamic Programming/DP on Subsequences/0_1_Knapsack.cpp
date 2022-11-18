@@ -106,8 +106,8 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWt)
     
     for (int index = 1; index < n; index++)
     {        
-        for (int cap = maxWt; cap >= 0; cap--)
-        {
+        for (int cap = maxWt; cap >= 0; cap--)          // Here we went from right to left because we wanted to get maximum benefit 
+        {                                               // dp[ind][cap] =  max(dp[ind-1][cap], dp[ind-1][cap-wt[ind]])
             int notTake = 0 + dp[cap];
             int take = INT_MIN;
             
