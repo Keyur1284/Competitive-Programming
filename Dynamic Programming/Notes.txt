@@ -52,3 +52,6 @@ Lec 15 Notes : https://takeuforward.org/data-structure/partition-equal-subset-su
 
 
 Lec 16 Notes : https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/
+
+
+Lec 17 Notes : https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/
