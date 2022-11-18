@@ -1,6 +1,8 @@
 Lec 1 Notes : https://takeuforward.org/data-structure/dynamic-programming-introduction/
 
 
+1D DP
+
 Lec 2 Notes : https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/
 
 Points to remember:
@@ -24,6 +26,9 @@ Lec 5 Notes : https://takeuforward.org/data-structure/maximum-sum-of-non-adjacen
 Lec 6 Notes : https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/
 
 
+
+DP on Grids
+
 Lec 7 Notes : https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/
 
 
@@ -45,6 +50,9 @@ Lec 12 Notes : https://takeuforward.org/data-structure/minimum-maximum-falling-p
 Lec 13 Notes : https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/
 
 
+
+DP on Subsequences
+
 Lec 14 Notes : https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/
 
 
@@ -58,5 +66,8 @@ Lec 17 Notes : https://takeuforward.org/data-structure/count-subsets-with-sum-k-
 
 
 Lec 18 Notes : https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/
+
+
+Lec 19 Notes : https://takeuforward.org/data-structure/0-1-knapsack-dp-19/
 
 
