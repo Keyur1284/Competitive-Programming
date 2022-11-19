@@ -75,3 +75,6 @@ Lec 20 Notes : https://takeuforward.org/data-structure/minimum-coins-dp-20/
 
 
 Lec 21 Notes : https://takeuforward.org/data-structure/target-sum-dp-21/
+
+
+Lec 22 Notes : https://takeuforward.org/data-structure/coin-change-2-dp-22/
