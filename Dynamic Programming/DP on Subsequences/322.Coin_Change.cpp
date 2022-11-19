@@ -143,7 +143,7 @@ public:
             for (int target = 0; target <= amount; target++)        //  Here we went from left to right because we wanted to get minimum no. of coins.
             {                                                       //  For example, if we want to know how many coins are required for amount 5 
                 int notTake = 0 + dp[target];                       //  we must have the no. of coins required for 1, 2, 3 and 4. 
-                int take = 1e9;                                     // dp[ind][target] =  min (dp[ind-1][target] , dp[ind-1][target-arr[ind]])
+                int take = 1e9;                                     // dp[ind][target] =  min (dp[ind-1][target] , dp[ind][target-arr[ind]])
                 
                 if (coins[index] <= target)
                     take = 1 + dp[target - coins[index]];
