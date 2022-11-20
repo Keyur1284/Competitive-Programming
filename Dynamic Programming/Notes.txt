@@ -96,3 +96,6 @@ Lec 26 Notes : https://takeuforward.org/data-structure/print-longest-common-subs
 
 
 Lec 27 Notes : https://takeuforward.org/data-structure/longest-common-substring-dp-27/
+
+
+Lec 28 Notes : https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/
