@@ -38,7 +38,7 @@ int main ()
     // input
     // abcde
     // bdgek
-    
+
     string s, t, ans = "";
 
     cin >> s >> t;
@@ -67,7 +67,6 @@ int main ()
         }
 
         else if (dp[i - 1][j] > dp[i][j - 1])
-    
             i--;
 
         else 
