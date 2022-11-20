@@ -90,3 +90,6 @@ Lec 24 Notes : https://takeuforward.org/data-structure/rod-cutting-problem-dp-24
 DP on Strings
 
 Lec 25 Notes : https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/
+
+
+Lec 26 Notes : https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/
