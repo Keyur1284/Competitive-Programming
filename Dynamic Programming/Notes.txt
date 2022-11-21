@@ -99,3 +99,9 @@ Lec 27 Notes : https://takeuforward.org/data-structure/longest-common-substring-
 
 
 Lec 28 Notes : https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/
+
+
+Lec 29 Notes : https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/
+
+
+Lec 30 Notes : https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/
