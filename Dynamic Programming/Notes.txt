@@ -114,3 +114,6 @@ Lec 32 Notes: https://takeuforward.org/data-structure/distinct-subsequences-dp-3
 
 
 Lec 33 Notes : https://takeuforward.org/data-structure/edit-distance-dp-33/
+
+
+Lec 34 Notes : https://takeuforward.org/data-structure/wildcard-matching-dp-34/
