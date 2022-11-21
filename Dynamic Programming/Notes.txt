@@ -123,3 +123,6 @@ Lec 34 Notes : https://takeuforward.org/data-structure/wildcard-matching-dp-34/
 DP on Stocks
 
 Lec 35 Notes : https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/
+
+
+Lec 36 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/
