@@ -105,3 +105,6 @@ Lec 29 Notes : https://takeuforward.org/data-structure/minimum-insertions-to-mak
 
 
 Lec 30 Notes : https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/
+
+
+Lec 31 Notes : https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/
