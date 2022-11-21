@@ -108,3 +108,6 @@ Lec 30 Notes : https://takeuforward.org/data-structure/minimum-insertions-deleti
 
 
 Lec 31 Notes : https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/
+
+
+Lec 32 Notes: https://takeuforward.org/data-structure/distinct-subsequences-dp-32/
