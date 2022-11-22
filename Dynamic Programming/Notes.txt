@@ -129,3 +129,6 @@ Lec 36 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-
 
 
 Lec 37 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/
+
+
+Lec 38 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/
