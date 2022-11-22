@@ -135,3 +135,6 @@ Lec 38 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-
 
 
 Lec 39 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/
+
+
+Lec 40 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/
