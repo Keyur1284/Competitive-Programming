@@ -86,6 +86,9 @@ Lec 23 Notes : https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/
 Lec 24 Notes : https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/
 
 
+Lec 41 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/
+
+
 
 DP on Strings
 
