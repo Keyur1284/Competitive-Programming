@@ -306,7 +306,7 @@ binary_search (StartIterator, EndIterator, num) will return true if the num is p
 Lower Bound function ;
 Array/Vector has to be sorted
 Time complexity = O(logn)
-returns an iterator pointing to the first element which is not less than num. ;
+returns an iterator pointing to the first element which is not less than num. (which means can also be pointing to the num if found);
 auto it = lower_bound (StartIterator, EndIterator, num) ;
 
 Upper Bound function ;
