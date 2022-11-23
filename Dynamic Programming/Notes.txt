@@ -89,6 +89,12 @@ Lec 24 Notes : https://takeuforward.org/data-structure/rod-cutting-problem-dp-24
 Lec 41 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/
 
 
+Lec 42 Notes : https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/
+
+
+Lec 43 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/
+
+
 
 DP on Strings
 
