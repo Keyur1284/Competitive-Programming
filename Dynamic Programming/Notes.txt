@@ -101,6 +101,9 @@ Lec 44 Notes : https://takeuforward.org/data-structure/longest-divisible-subset-
 Lec 45 Notes : https://takeuforward.org/data-structure/longest-string-chain-dp-45/
 
 
+Lec 46 Notes : https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/
+
+
 
 
 DP on Strings
