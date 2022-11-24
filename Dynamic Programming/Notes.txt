@@ -95,6 +95,9 @@ Lec 42 Notes : https://takeuforward.org/data-structure/printing-longest-increasi
 Lec 43 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/
 
 
+Lec 44 Notes : https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/
+
+
 
 DP on Strings
 
