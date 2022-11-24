@@ -160,3 +160,9 @@ Lec 39 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-
 
 
 Lec 40 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/
+
+
+
+DP on Partitions
+
+Lec 48 Notes : https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/
