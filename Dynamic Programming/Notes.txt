@@ -104,6 +104,9 @@ Lec 45 Notes : https://takeuforward.org/data-structure/longest-string-chain-dp-4
 Lec 46 Notes : https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/
 
 
+Lec 47 Notes : https://takeuforward.org/data-structure/number-of-longest-increasing-subsequences-dp-47/
+
+
 
 
 DP on Strings
