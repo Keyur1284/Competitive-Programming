@@ -98,6 +98,10 @@ Lec 43 Notes : https://takeuforward.org/data-structure/longest-increasing-subseq
 Lec 44 Notes : https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/
 
 
+Lec 45 Notes : https://takeuforward.org/data-structure/longest-string-chain-dp-45/
+
+
+
 
 DP on Strings
 
