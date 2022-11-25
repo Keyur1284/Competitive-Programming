@@ -364,4 +364,11 @@ bool Lambda_func (int x)
 all_of (vec.begin(), vec.end(), Lamda_func);
 
 
+IOTA
+
+Assigns to every element in the range [first, last] successive values of val, as if incremented with ++val after each element is written.
+
+void iota (vec.begin(), vec.end(), val);
+
+
 
