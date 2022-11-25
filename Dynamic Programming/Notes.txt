@@ -175,3 +175,10 @@ Lec 50 Notes : https://takeuforward.org/data-structure/minimum-cost-to-cut-the-s
 
 
 Lec 51 to 54 Notes are not available 
+
+
+
+DP on Rectangles
+
+
+Lec 55 and 56 Notes are not available
