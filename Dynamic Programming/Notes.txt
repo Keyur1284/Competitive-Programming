@@ -172,3 +172,6 @@ Lec 49 Notes : https://takeuforward.org/data-structure/matrix-chain-multiplicati
 
 
 Lec 50 Notes : https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/
+
+
+Lec 51 to 54 Notes are not available 
