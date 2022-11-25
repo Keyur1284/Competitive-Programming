@@ -52,6 +52,8 @@ vec.clear();  --> erase all elements at once {} ;
 
 vec.emplace_back() is little bit faster than vec.push_back(). ;
 
+vec.emplace(vec.begin(), num) is used to insert an element at the front of the vector
+
 auto it = find (vec.begin(), vec.end(), key) will return an iterator to the key if its found. Else it will return vec.end().
 
 vector<int> vec1(4, 0);  -> {0,0,0,0} ;
