@@ -166,3 +166,9 @@ Lec 40 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-
 DP on Partitions
 
 Lec 48 Notes : https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/
+
+
+Lec 49 Notes : https://takeuforward.org/data-structure/matrix-chain-multiplication-tabulation-method-dp-49/
+
+
+Lec 50 Notes : https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/
