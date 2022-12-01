@@ -20,3 +20,12 @@ Lec 8 Notes : https://takeuforward.org/graph/number-of-islands/
 
 
 Lec 9 Notes : https://takeuforward.org/graph/flood-fill-algorithm-graphs/
+
+
+Lec 10 Notes : https://takeuforward.org/data-structure/rotten-oranges/
+
+
+Lec 11 Notes : https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
+
+
+Lec 12 Notes : https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/
