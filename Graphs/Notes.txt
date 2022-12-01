@@ -17,3 +17,6 @@ Lec 7 Notes : https://takeuforward.org/data-structure/number-of-provinces/
 
 
 Lec 8 Notes : https://takeuforward.org/graph/number-of-islands/
+
+
+Lec 9 Notes : https://takeuforward.org/graph/flood-fill-algorithm-graphs/
