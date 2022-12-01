@@ -32,3 +32,6 @@ Lec 12 Notes : https://takeuforward.org/data-structure/detect-cycle-in-an-undire
 
 
 Lec 13 Notes : https://takeuforward.org/graph/distance-of-nearest-cell-having-1/
+
+
+Lec 14 Notes : https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/
