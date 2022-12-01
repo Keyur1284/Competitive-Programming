@@ -13,3 +13,4 @@ Lec 5 Notes : https://takeuforward.org/graph/breadth-first-search-bfs-level-orde
 Lec 6 Notes : https://takeuforward.org/data-structure/depth-first-search-dfs/
 
 
+Lec 7 Notes : https://takeuforward.org/data-structure/number-of-provinces/
