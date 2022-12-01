@@ -5,14 +5,20 @@ freopen("output.txt", "w", stdout);
 
 #include <bits/stdc++.h>
 #define ll long long int
+const ll MOD = 1e9 + 7;
 #define pi pair <int, int>
 #define pl pair <ll, ll>
 #define vi vector <int>
+#define vvi vector<vector<int>>    
+#define vvvi vector<vector<vector<int>>>
 #define vpi vector <pi>
 #define vpl vector <pl>
 #define vl vector <ll>
+#define vvl vector<vector<ll>>    
+#define vvvl vector<vector<vector<ll>>>  
 #define endl '\n'
 #define nl cout << '\n' 
+#define pb push_back
 #define eb emplace_back
 #define em emplace
 #define yes cout << "YES" << '\n'
