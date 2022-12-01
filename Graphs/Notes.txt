@@ -29,3 +29,6 @@ Lec 11 Notes : https://takeuforward.org/data-structure/detect-cycle-in-an-undire
 
 
 Lec 12 Notes : https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/
+
+
+Lec 13 Notes : https://takeuforward.org/graph/distance-of-nearest-cell-having-1/
