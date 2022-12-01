@@ -1,0 +1,15 @@
+Lec 1 Notes : https://takeuforward.org/graph/introduction-to-graph/
+
+
+Lec 2, 3 Notes : https://takeuforward.org/graph/graph-representation-in-c/
+
+
+Lec 4 Notes : https://takeuforward.org/graph/connected-components-in-graphs/
+
+
+Lec 5 Notes : https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/
+
+
+Lec 6 Notes : https://takeuforward.org/data-structure/depth-first-search-dfs/
+
+
