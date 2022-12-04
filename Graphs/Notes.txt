@@ -53,3 +53,6 @@ Lec 19 Notes : https://takeuforward.org/data-structure/detect-cycle-in-a-directe
 
 
 Lec 20 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states-dfs-g-20/
+
+
+Lec 21 Notes : https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/
