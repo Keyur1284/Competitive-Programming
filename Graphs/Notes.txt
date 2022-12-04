@@ -38,3 +38,6 @@ Lec 14 Notes : https://takeuforward.org/graph/surrounded-regions-replace-os-with
 
 
 Lec 15 Notes : https://takeuforward.org/graph/number-of-enclaves/
+
+
+Lec 16 Notes : https://takeuforward.org/data-structure/number-of-distinct-islands/
