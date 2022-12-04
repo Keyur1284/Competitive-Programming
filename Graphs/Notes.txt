@@ -56,3 +56,6 @@ Lec 20 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states
 
 
 Lec 21 Notes : https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/
+
+
+Lec 22 Notes : https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/
