@@ -59,3 +59,6 @@ Lec 21 Notes : https://takeuforward.org/data-structure/topological-sort-algorith
 
 
 Lec 22 Notes : https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/
+
+
+Lec 23 Notes : https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
