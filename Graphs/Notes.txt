@@ -50,3 +50,6 @@ Lec 18 Notes : https://takeuforward.org/graph/bipartite-graph-dfs-implementation
 
 
 Lec 19 Notes : https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/
+
+
+Lec 20 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states-dfs-g-20/
