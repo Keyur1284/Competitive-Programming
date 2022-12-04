@@ -41,3 +41,9 @@ Lec 15 Notes : https://takeuforward.org/graph/number-of-enclaves/
 
 
 Lec 16 Notes : https://takeuforward.org/data-structure/number-of-distinct-islands/
+
+
+Lec 17 Notes : https://takeuforward.org/graph/bipartite-graph-bfs-implementation/
+
+
+Lec 18 Notes : https://takeuforward.org/graph/bipartite-graph-dfs-implementation/
