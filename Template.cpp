@@ -5,7 +5,12 @@ freopen("output.txt", "w", stdout);
 
 #include <bits/stdc++.h>
 #define ll long long int
+#define ld long double
 const ll MOD = 1e9 + 7;
+#define imx INT_MAX
+#define imn INT_MIN
+#define lmx LLONG_MAX
+#define lmn LLONG_MIN
 #define pi pair <int, int>
 #define pl pair <ll, ll>
 #define vi vector <int>
