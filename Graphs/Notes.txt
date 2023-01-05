@@ -65,3 +65,6 @@ Lec 23 Notes : https://takeuforward.org/data-structure/detect-a-cycle-in-directe
 
 
 Lec 24 Notes : https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/
+
+
+Lec 25 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/
