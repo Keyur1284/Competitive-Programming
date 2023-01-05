@@ -62,3 +62,6 @@ Lec 22 Notes : https://takeuforward.org/data-structure/kahns-algorithm-topologic
 
 
 Lec 23 Notes : https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
+
+
+Lec 24 Notes : https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/
