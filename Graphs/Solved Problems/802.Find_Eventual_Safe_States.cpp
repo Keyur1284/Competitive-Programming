@@ -64,3 +64,59 @@ public:
         return ans;
     }
 };
+
+
+
+//Solved by BFS
+
+class Solution {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        
+        int n = graph.size();
+
+        vector <int> adj[n], adjRev[n], indegree(n, 0), ans;
+
+        for (int i = 0; i < n; i++)
+        {
+            for (auto it : graph[i])
+                adj[i].emplace_back(it);
+        }
+
+        for (int i = 0; i < n; i++)
+        {
+            for (auto it : adj[i])
+            {
+                adjRev[it].emplace_back(i);
+                indegree[i]++;
+            }
+        }
+
+        queue <int> q;
+
+        for (int i = 0; i < n; i++)
+        {
+            if (indegree[i] == 0)
+                q.emplace(i);
+        }
+
+        while (!q.empty())
+        {
+            int node = q.front();
+            q.pop();
+            ans.emplace_back(node);
+
+            for (auto it : adjRev[node])
+            {
+                indegree[it]--;
+
+                if (indegree[it] == 0)
+                    q.emplace(it);
+            }
+        }
+
+        sort (ans.begin(), ans.end());
+
+        return ans;
+    }
+};
