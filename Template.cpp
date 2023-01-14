@@ -118,6 +118,20 @@ ll gcd(ll x, ll y)
     return gcd(y % x, x);
 }
 
+bool is_prime (ll num)
+{
+    if (num == 2 || num == 3)
+        return true;
+        
+    for (ll i = 2; i * i <= num; i++)
+    {
+        if (num % i == 0)
+            return false;
+    }
+    
+    return true;
+}
+
 void solve()
 {
     
