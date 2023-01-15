@@ -75,6 +75,9 @@ class DSU
             u = findPar(u);
             v = findPar(v);
 
+            if (u == v)
+                return;
+
             if(rank[u] < rank[v])
                 parent[u] = v;
 
