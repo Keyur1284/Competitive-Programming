@@ -122,7 +122,7 @@ ms.erase(num) 	all the instances will be deleted ;
 auto it = ms.find(num) returns iterator pointing to the first element of num ;
 ms.clear(), ms.erase(ms.begin(), ms.end())     deletes the entire set ;
 ms.erase(ms.find(num)) 		This will erase only first instance of the number. ;
-
+ms.erase(iterator)		This will erase only first instance at which the iterator is pointing
 
 
 MAP
