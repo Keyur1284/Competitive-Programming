@@ -49,7 +49,7 @@ vector <datatype> vector_name;
 vector <int> vec;
 vec.push_back(), vec.pop_back(), vec.emplace_back(), ;
 vec.clear();  --> erase all elements at once {} ;
-
+vec.insert(iterator, value); --> insert value at the position on which iterator is pointing
 vec.emplace_back() is little bit faster than vec.push_back(). ;
 
 vec.emplace(vec.begin(), num) is used to insert an element at the front of the vector
