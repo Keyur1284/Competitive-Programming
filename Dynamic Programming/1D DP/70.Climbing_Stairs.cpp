@@ -49,19 +49,18 @@ public:
 //Solved by Tabulation Method (Space Optimized)
 class Solution {
 public:
+
     int climbStairs(int n) {
-        
-        if (n <= 2)
-           return n;
-        
-        int prev = 2, prev2 = 1, ans;
-        for (int i = 3; i<=n; i++)
+
+        int prev2 = 1, prev = 1;
+
+        for (int index = 2; index <= n; index++)
         {
-            ans = prev + prev2;
+            int curr = prev + prev2;
             prev2 = prev;
-            prev = ans;
+            prev = curr;
         }
-        
-        return ans;
+
+        return prev;
     }
 };
