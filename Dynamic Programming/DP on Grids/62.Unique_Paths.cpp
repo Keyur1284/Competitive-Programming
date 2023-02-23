@@ -14,8 +14,8 @@ public:
         if (dp[x][y] != -1)
             return dp[x][y];
         
-        int up = func (x, y - 1, dp);
-        int left = func (x - 1, y, dp);
+        int up = func (x - 1, y, dp);
+        int left = func (x, y - 1, dp);
         
         return dp[x][y] = up + left;
     }
