@@ -5,9 +5,7 @@
 
 int func (int index, int target, vector <vector <int>> &dp, vector<int> &num)
 {
-    if (index == 0)
-    {
-        /*
+    /*
             Base case if numbers are > 0
             
             if (target == 0)
@@ -15,8 +13,11 @@ int func (int index, int target, vector <vector <int>> &dp, vector<int> &num)
         
             if (index == 0)
                 return (num[index] == target);
-        */
+    */
 
+    // Base case if numbers are >= 0
+    if (index == 0)
+    {
         if (target == 0 && num[index] == 0)
             return 2;
         
