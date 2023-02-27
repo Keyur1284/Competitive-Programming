@@ -4,6 +4,7 @@ Lec 1 Notes : https://takeuforward.org/data-structure/dynamic-programming-introd
 1D DP
 
 Lec 2 Notes : https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/
+Problem Link :- https://leetcode.com/problems/climbing-stairs/
 
 Points to remember:
 Step1. Identify a DP Problem.
@@ -15,60 +16,77 @@ Step2. To solve the problem after identification.
 
 
 Lec 3 Notes : https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/frog-jump_3621012
 
 
 Lec 4 Notes : https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/
+Problem Link :- https://atcoder.jp/contests/dp/tasks/dp_b
 
 
 Lec 5 Notes : https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/
+Problem Link :- https://leetcode.com/problems/house-robber/
 
 
 Lec 6 Notes : https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/
+Problem Link :- https://leetcode.com/problems/house-robber-ii/
 
 
 
 DP on Grids
 
 Lec 7 Notes : https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003
 
 
 Lec 8 Notes : https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/
+Problem Link :- https://leetcode.com/problems/unique-paths/
 
 
 Lec 9 Notes : https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/
+Problem Link :- https://leetcode.com/problems/unique-paths-ii/
 
 
 Lec 10 Notes : https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/
+Problem Link :- https://leetcode.com/problems/minimum-path-sum/
 
 
 Lec 11 Notes : https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/
+Problem Link :- https://leetcode.com/problems/triangle/
 
 
 Lec 12 Notes : https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/maximum-path-sum-in-the-matrix_797998
 
 
 Lec 13 Notes : https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/ninja-and-his-friends_3125885
 
 
 
 DP on Subsequences
 
 Lec 14 Notes : https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954
 
 
 Lec 15 Notes : https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/
+Problem Link :- https://leetcode.com/problems/partition-equal-subset-sum/
 
 
 Lec 16 Notes : https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/
+Problem Link: https://www.codingninjas.com/codestudio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
 
 
 Lec 17 Notes : https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/number-of-subsets_3952532
 
 
 Lec 18 Notes : https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/partitions-with-given-difference_3751628
 
 
 Lec 19 Notes : https://takeuforward.org/data-structure/0-1-knapsack-dp-19/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/0-1-knapsack_920542
 
 
 Lec 20 Notes : https://takeuforward.org/data-structure/minimum-coins-dp-20/
