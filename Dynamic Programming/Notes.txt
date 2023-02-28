@@ -74,7 +74,7 @@ Problem Link :- https://leetcode.com/problems/partition-equal-subset-sum/
 
 
 Lec 16 Notes : https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/
-Problem Link: https://www.codingninjas.com/codestudio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
+Problem Link : https://www.codingninjas.com/codestudio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
 
 
 Lec 17 Notes : https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/
@@ -90,18 +90,23 @@ Problem Link :- https://www.codingninjas.com/codestudio/problems/0-1-knapsack_92
 
 
 Lec 20 Notes : https://takeuforward.org/data-structure/minimum-coins-dp-20/
+Problem Link :- https://leetcode.com/problems/coin-change/
 
 
 Lec 21 Notes : https://takeuforward.org/data-structure/target-sum-dp-21/
+Problem Link :- https://leetcode.com/problems/target-sum/
 
 
 Lec 22 Notes : https://takeuforward.org/data-structure/coin-change-2-dp-22/
+Problem Link :- https://leetcode.com/problems/coin-change-2/
 
 
 Lec 23 Notes : https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/unbounded-knapsack_1215029
 
 
 Lec 24 Notes : https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/rod-cutting-problem_800284
 
 
 Lec 41 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/
