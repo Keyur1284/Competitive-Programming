@@ -1,5 +1,7 @@
 //Problem Link :- https://leetcode.com/problems/target-sum/
 
+// This problem is same as the partition with given difference problem of coding studio
+
 //Solved by Memoization Method
 class Solution {
 public:
