@@ -135,6 +135,39 @@ bool is_prime (ll num)
     return true;
 }
 
+const ll N = 2e5+5;
+vl fact(N);
+
+ll mod_power(ll num, ll a) 
+{
+    ll res = 1;
+    
+    while (a) 
+    {
+        if (a % 2)
+            res = (((res % MOD) * (num % MOD)) % MOD), a--;
+        else
+            num = (((num % MOD) * (num % MOD)) % MOD), a /= 2;
+    }
+    
+    return res;
+}
+
+ll inverse(ll num) 
+{ 
+    return mod_power(num, MOD - 2); 
+}
+
+void pre() 
+{
+    fact[0] = fact[1] = 1;
+    
+    FOR(i, 2, N - 1) 
+    {
+        fact[i] = (fact[i-1] * 1LL * i) % MOD;
+    }
+}
+
 void solve()
 {
     
