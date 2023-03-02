@@ -4,10 +4,12 @@ freopen("output.txt", "w", stdout);
 #endif*/
 
 #pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
 #include <bits/stdc++.h>
 #define ll long long int
 #define ld long double
 const ll MOD = 1e9 + 7;
+const ll MOD2 = 998244353;
 #define imx INT_MAX
 #define imn INT_MIN
 #define lmx LLONG_MAX
@@ -39,6 +41,7 @@ const ll MOD = 1e9 + 7;
 #define lb(x, key) lower_bound(all(x), key)
 #define ub(x, key) upper_bound(all(x), key)
 #define rall(x) x.rbegin(), x.rend()
+#define initialize(a, i) memset(a, i, sizeof(a))
 #define F0R(i, n) for (ll i = 0; i < n; i++)
 #define FOR(i, a, b) for (ll i = a; i <= b; i++)
 #define RF0R(i, n) for (ll i = n - 1; i >= 0; i--)
