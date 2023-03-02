@@ -51,6 +51,13 @@ vec.push_back(), vec.pop_back(), vec.emplace_back(), ;
 vec.clear();  --> erase all elements at once {} ;
 vec.insert(iterator, value); --> insert value at the position on which iterator is pointing
 vec.emplace_back() is little bit faster than vec.push_back(). ;
+vec.resize(unique(vec.begin(), vec.end()) - vec.begin()); 
+vec.resize(distance(vec.begin(), unique(vec.begin(), vec.end())));
+// The above function is used to remove the adjacent duplicates
+The unique function returns an iterator to the element that follows 
+the last element not removed. The range between first and this iterator includes 
+all the elements in the sequence that were not
+duplicates and hence not removed.
 
 vec.emplace(vec.begin(), num) is used to insert an element at the front of the vector
 
