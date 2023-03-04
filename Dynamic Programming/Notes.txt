@@ -135,12 +135,14 @@ Lec 47 Notes : https://takeuforward.org/data-structure/number-of-longest-increas
 DP on Strings
 
 Lec 25 Notes : https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/
+Problem Link :- https://leetcode.com/problems/longest-common-subsequence/
 
 
 Lec 26 Notes : https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/
 
 
 Lec 27 Notes : https://takeuforward.org/data-structure/longest-common-substring-dp-27/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/longest-common-substring_1235207
 
 
 Lec 28 Notes : https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/
