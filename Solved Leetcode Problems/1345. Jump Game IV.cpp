@@ -9,10 +9,10 @@ public:
 
         int n = arr.size(), steps = 0;
         vector<bool> vis (n , false);
-        unordered_map<int, vector<int>> indices;
+        unordered_map<int, vector<int>> adj;
 
         for (int i = 0; i < n; i++)
-            indices[arr[i]].emplace_back(i);
+            adj[arr[i]].emplace_back(i);
 
         queue <int> visIndices;
         vis[0] = true;
@@ -30,7 +30,7 @@ public:
                 if (index == n - 1)
                     return steps;
 
-                vector<int> &jumpTo = indices[arr[index]];
+                vector<int> &jumpTo = adj[arr[index]];
                 jumpTo.emplace_back(index + 1);
                 jumpTo.emplace_back(index - 1);
 
