@@ -8,6 +8,8 @@ Maximum size of an array declared globally of bool datatype is 10^8.
 
 If this size exceeds, then we'll get segmentation error!
 
+// Checks whether str[i] is either a decimal digit or an uppercase or lowercase letter.
+isalnum(str[i]);
 
 
 ARRAY
