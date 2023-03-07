@@ -50,6 +50,7 @@ vector <int> vec;
 vec.push_back(), vec.pop_back(), vec.emplace_back(), ;
 vec.clear();  --> erase all elements at once {} ;
 vec.insert(iterator, value); --> insert value at the position on which iterator is pointing
+vec.insert(iterator, no_of_times, value); --> insert value no_of_times at the position on which iterator is pointing
 vec.emplace_back() is little bit faster than vec.push_back(). ;
 vec.resize(unique(vec.begin(), vec.end()) - vec.begin()); 
 vec.resize(distance(vec.begin(), unique(vec.begin(), vec.end())));
@@ -58,6 +59,9 @@ The unique function returns an iterator to the element that follows
 the last element not removed. The range between first and this iterator includes 
 all the elements in the sequence that were not
 duplicates and hence not removed.
+
+vec.erase(remove(vec.begin(), vec.end(), key), vec.end());
+// The above function is used to remove all the instances of the key from the vector
 
 vec.emplace(vec.begin(), num) is used to insert an element at the front of the vector
 
@@ -204,8 +208,8 @@ Time complexity = O(1) 	except deletion. Deletion takes O(n) time. ;
 queue<datatype> queue_name ;  
 queue<int> q ;
 q.push(num), q.emplace(num) ;
-q.top() ;
 q.front() ;
+q.back();
 q.pop() ;
 q.empty() ;
 
@@ -218,10 +222,9 @@ It uses the concept of heap sort. ;
 It contains all the elements in descending order. Maximum element will be first in the queue. ;
 
 priority_queue<datatype> queue_name ;
-priority_queue<int> pq ;
+priority_queue<int> pq ;		// Max Heap
 pq.push(num), pq.emplace(num) ;  
 pq.top() ;
-pq.front() ;
 pq.pop() ;
 pq.empty() ;
 
@@ -230,7 +233,7 @@ Always check if the priority queue is non-empty before using pq.top() ;
 priority_queue<pair<int,int>> pq ;  
 If the first element in the pair is same then it will store according to second element ;
 
-priority_queue<int, vector<int>, greater<int>> pq ;
+priority_queue<int, vector<int>, greater<int>> pq ;		// Min Heap
 This is minimum priority queue. Minimum element will be first in the queue. ;
 
 priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq ;
@@ -242,8 +245,8 @@ DEQUEUE
 dequeue<datatype> queue_name ;
 dequeue<int> dq ;
 
-push_front(key), push_back(key), pop_front(), pop_back() ;
-begin(), end(), rbegin(), rend(), size(), clear(), empty(), at(index) ;
+push_front(key), push_back(key), emplace_front(key), emplace_back(key), pop_front(), pop_back() ;
+begin(), end(), rbegin(), rend(), front(), back(), size(), clear(), empty(), at(index) ;
 
 
 
@@ -252,8 +255,8 @@ LIST
 list<datatype> list_name ;
 list<int> ls; 
 
-push_front(key), push_back(key), pop_front(), pop_back() ;
-begin(), end(), rbegin(), rend(), size(), clear(), empty(), at(index) ;
+push_front(key), push_back(key), emplace_front(key), emplace_back(key), pop_front(), pop_back() ;
+begin(), end(), rbegin(), rend(), front(), back(), size(), clear(), empty(), at(index) ;
 remove(key) takes O(1) time to remove/delete the element from the list.  ;
 
 
@@ -276,6 +279,14 @@ bt.reset() will make all the bits unset i.e. all the bits will become 0 ;
 bt.reset(position) will unset the bit at the given position ;
 bt.size() prints the size
 bt.test(position) checks whether the bit at the given position is set or not ;
+bt.to_string() will convert the bitset to string ;
+bt.to_ulong() will convert the bitset to unsigned long int ;
+bt.to_ullong() will convert the bitset to unsigned long long int ;
+
+// for int
+__builtin_popcount(num) will return the no. of 1's in the binary representation of the number ;
+// for long long int
+__builtin_popcountll(num) will return the no. of 1's in the binary representation of the number ;
 
 
 
