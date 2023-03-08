@@ -368,7 +368,7 @@ bool comp(pair<int,int> el1, pair<int,int> el2) {
 		return el1.second > el2.second;
 }
 
-
+// In C++, comparator should return false if its arguments are equal.
 
 Lambda Function 
 
