@@ -1,4 +1,4 @@
-// Description of Heap Sort
+// Description of Heap Sort :
 // 1. Build a max heap from the input data.
 // 2. At this point, the largest item is stored at the root of the heap. 
 // Replace it with the last item of the heap followed by reducing the size of heap by 1. 
