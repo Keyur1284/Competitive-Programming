@@ -1,4 +1,4 @@
-// Description of approach
+// Description of Merge Sort :
 // 1. Divide the array into two halves
 // 2. Sort the two halves recursively
 // 3. Merge the two sorted halves
