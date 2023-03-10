@@ -1,4 +1,4 @@
-// Description of approach
+// Description of Bubble Sort :
 // 1. Compare the adjacent elements
 // 2. Swap the elements if they are not in the correct order
 // 3. Repeat the above steps for the remaining array
