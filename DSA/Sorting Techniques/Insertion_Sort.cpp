@@ -1,4 +1,4 @@
-// Description of approach
+// Description of Insertion Sort :
 // 1. Insert the element at the correct position in the sorted array
 // 2. Repeat the above steps for the remaining array
 
