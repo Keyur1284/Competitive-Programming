@@ -1,0 +1,74 @@
+Types of binary trees
+
+Full Binary Tree
+
+A full binary tree is a special type of binary tree 
+in which every parent node/internal node has either two or no children.
+A full binary tree is defined as a binary tree in which all nodes other than 
+the leaves have two children. In other words, all internal nodes have two children 
+and all leaves are at the same level.
+A full binary tree is also known as a proper binary tree or a 2-tree.
+
+Complete Binary Tree
+
+A complete binary tree is a special type of binary tree in which every level, 
+except possibly the last, is completely filled, and all nodes are as far left as possible.
+A complete binary tree is also known as a proper binary tree or a 2-tree.
+
+Perfect Binary Tree
+
+A perfect binary tree is a special type of full binary tree in which all internal
+nodes have two children and all leaves are at the same level.
+A perfect binary tree is also known as a full binary tree or a 2-tree.
+
+Balanced Binary Tree
+
+A binary tree is balanced if the height of the tree is O(Log n) where n is the number of nodes.
+For a balanced tree, the time complexity of searching, insertion and deletion is O(Log n).
+
+Degenerate Tree
+
+A degenerate (or pathological) tree is a tree in which every internal node has one child.
+Such trees are performance-wise same as linked list.
+
+
+Binary Tree Representation
+
+A binary tree can be represented in two ways:
+1. Linked Representation
+2. Array Representation
+
+Linked Representation
+
+In this representation, each node of the binary tree is represented by a 
+separate object. Each node object contains three parts:
+Data
+Pointer to left child
+Pointer to right child
+
+Array Representation
+
+In this representation, the binary tree is stored in an array. 
+The root node is stored at index 0 of the array. For any ith node, i.e.,
+ node whose value is stored at index i in the array, the left child is stored at index 2*i+1 
+ and the right child is stored at index 2*i+2.
+
+Binary Tree Traversal
+
+Binary tree traversal is the process of visiting each node of the binary tree exactly once. 
+There are three types of binary tree traversal:
+Inorder Traversal
+Preorder Traversal
+Postorder Traversal
+
+Inorder Traversal
+
+In this traversal, the left subtree is visited first, then the root and later the right subtree.
+
+Preorder Traversal
+
+In this traversal, the root node is visited first, then the left subtree and later the right subtree.
+
+Postorder Traversal
+
+In this traversal, the left subtree is visited first, then the right subtree and later the root node.
