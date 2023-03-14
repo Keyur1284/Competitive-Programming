@@ -76,3 +76,22 @@ In this traversal, the left subtree is visited first, then the right subtree and
 Levelorder Traversal
 
 In this traversal, the tree is traversed level by level from left to right.
+
+
+Lecture Notes
+
+Lec 5, 9 : https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-preorder-traversal/
+
+Lec 6, 10 : https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-inorder-traversal/
+
+Lec 7, 11 : https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-postorder-traversal/
+
+Lec 8 : https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+Lec 14 : https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/
+Problem Link :- https://leetcode.com/problems/maximum-depth-of-binary-tree/
+
