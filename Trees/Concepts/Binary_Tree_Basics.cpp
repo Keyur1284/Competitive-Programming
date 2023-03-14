@@ -47,6 +47,8 @@ void inOrderIterative (TreeNode* root)
 
         curr = st.top();
         st.pop();
+        curr->left = NULL;
+
         cout << curr->val << " ";
 
         if (curr->right)
