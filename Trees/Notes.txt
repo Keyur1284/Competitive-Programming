@@ -72,3 +72,7 @@ In this traversal, the root node is visited first, then the left subtree and lat
 Postorder Traversal
 
 In this traversal, the left subtree is visited first, then the right subtree and later the root node.
+
+Levelorder Traversal
+
+In this traversal, the tree is traversed level by level from left to right.
