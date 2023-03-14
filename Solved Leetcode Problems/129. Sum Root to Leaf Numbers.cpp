@@ -83,7 +83,6 @@ public:
         if (node->left == NULL && node->right == NULL)
         {
             ans += sum;
-            cout << ans << " " << sum << endl;
             return;
         }
 
