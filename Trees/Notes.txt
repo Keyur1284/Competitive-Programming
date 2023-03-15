@@ -109,3 +109,18 @@ Problem Link :- https://leetcode.com/problems/same-tree/
 
 Lec 19 : https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/
 Problem Link :- https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+
+Lec 20 : https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/boundary-traversal_790725
+
+Lec 21 : https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/
+Problem Link :- https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+
+Lec 22 : https://takeuforward.org/data-structure/top-view-of-a-binary-tree/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/top-view-of-the-tree_799401
+
+Lec 23 : https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/bottom-view-of-binary-tree_893110
+
+Lec 24 : https://takeuforward.org/data-structure/right-left-view-of-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-right-side-view/
