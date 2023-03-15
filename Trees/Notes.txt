@@ -124,3 +124,11 @@ Problem Link :- https://www.codingninjas.com/codestudio/problems/bottom-view-of-
 
 Lec 24 : https://takeuforward.org/data-structure/right-left-view-of-binary-tree/
 Problem Link :- https://leetcode.com/problems/binary-tree-right-side-view/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/left-view-of-binary-tree_625707
+
+Lec 25 : 
+Problem Link :- https://leetcode.com/problems/symmetric-tree/
+
+Lec 26 : https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/
+Problem Link :- https://www.interviewbit.com/problems/path-to-given-node/
+
