@@ -95,3 +95,17 @@ Problem Link :- https://leetcode.com/problems/binary-tree-level-order-traversal/
 Lec 14 : https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/
 Problem Link :- https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
+Lec 15 : https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/
+Problem Link :- https://leetcode.com/problems/balanced-binary-tree/
+
+Lec 16 : https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/
+Problem Link :- https://leetcode.com/problems/diameter-of-binary-tree/
+
+Lec 17 : https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+Lec 18 : https://takeuforward.org/data-structure/check-if-two-trees-are-identical/
+Problem Link :- https://leetcode.com/problems/same-tree/
+
+Lec 19 : https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/
+Problem Link :- https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
