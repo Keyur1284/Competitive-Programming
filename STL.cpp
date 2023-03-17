@@ -54,6 +54,10 @@ vec.clear();  --> erase all elements at once {} ;
 vec.insert(iterator, value); --> insert value at the position on which iterator is pointing
 vec.insert(iterator, no_of_times, value); --> insert value no_of_times at the position on which iterator is pointing
 vec.emplace_back() is little bit faster than vec.push_back(). ;
+vec.assign (size, value); --> assigns new values to the vector elements by replacing old ones. 
+// It can also modify the size of the vector if necessary.
+// The syntax for modifying values from a vector 
+vec.assign (start iterator, end iterator); --> copies the values into the vector and also changes its size
 vec.resize(unique(vec.begin(), vec.end()) - vec.begin()); 
 vec.resize(distance(vec.begin(), unique(vec.begin(), vec.end())));
 // The above function is used to remove the adjacent duplicates
