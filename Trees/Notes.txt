@@ -132,3 +132,8 @@ Problem Link :- https://leetcode.com/problems/symmetric-tree/
 Lec 26 : https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/
 Problem Link :- https://www.interviewbit.com/problems/path-to-given-node/
 
+Lec 27 : https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/
+Problem Link :- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+Lec 28 : https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/
+Problem Link :- https://leetcode.com/problems/maximum-width-of-binary-tree/
