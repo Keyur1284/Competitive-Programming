@@ -90,8 +90,8 @@ void printLeftView(BinaryTreeNode<int> *root)
         return;
     }
 
-    queue<pair<BinaryTreeNode<int>*, int>> q;
-    q.emplace(root, 0);
+    queue<BinaryTreeNode<int>*> q;
+    q.emplace(root);
 
     while (!q.empty())
     {
@@ -99,18 +99,17 @@ void printLeftView(BinaryTreeNode<int> *root)
 
         for (int i = 1; i <= size; i++)
         {
-            BinaryTreeNode<int>* node = q.front().first;
-            int level = q.front().second;
+            BinaryTreeNode<int>* node = q.front();
             q.pop();
             
             if (i == 1)
                 ans.emplace_back(node->data);
 
             if (node->left)
-                q.emplace(node->left, level + 1);
+                q.emplace(node->left);
 
             if (node->right)
-                q.emplace(node->right, level + 1);
+                q.emplace(node->right);
         }
     }
 
