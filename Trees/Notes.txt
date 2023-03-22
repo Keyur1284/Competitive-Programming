@@ -137,3 +137,6 @@ Problem Link :- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary
 
 Lec 28 : https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/
 Problem Link :- https://leetcode.com/problems/maximum-width-of-binary-tree/
+
+Lec 29 : https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/childrensumproperty_790723
