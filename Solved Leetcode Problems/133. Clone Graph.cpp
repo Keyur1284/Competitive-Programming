@@ -40,10 +40,10 @@ public:
         for (auto &it : node->neighbors)
         {
             if (copy.find(it) == copy.end())
-                root->neighbors.emplace_back(DFS(it));
+                copy[node]->neighbors.emplace_back(DFS(it));
 
             else
-                root->neighbors.emplace_back(copy[it]);
+                copy[node]->neighbors.emplace_back(copy[it]);
         }
 
         return root;
