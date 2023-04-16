@@ -141,17 +141,27 @@ bool is_prime (ll num)
 const ll N = 2e5+5;
 vl fact(N);
 
-ll mod_power(ll num, ll a) 
+ll mod_power(ll num, ll p) 
 {
     ll res = 1;
     
-    while (a) 
+    // while (p) 
+    // {
+    //     if (p % 2)
+    //         res = (((res % MOD) * (num % MOD)) % MOD), p--;
+    //     else
+    //         num = (((num % MOD) * (num % MOD)) % MOD), p /= 2;
+    // }
+
+    while (p)
     {
-        if (a % 2)
-            res = (((res % MOD) * (num % MOD)) % MOD), a--;
-        else
-            num = (((num % MOD) * (num % MOD)) % MOD), a /= 2;
+        if (p % 2)
+            res = (((res % MOD) * (num % MOD)) % MOD);
+
+        p /= 2;
+        num = (((num % MOD) * (num % MOD)) % MOD);
     }
+    
     
     return res;
 }
@@ -169,6 +179,18 @@ void pre()
     {
         fact[i] = (fact[i-1] * 1LL * i) % MOD;
     }
+}
+
+ll nCr(ll n, ll r) 
+{
+    if (r > n)
+        return 0;
+    
+    ll res = fact[n];
+    res = (res * 1LL * inverse(fact[r])) % MOD;
+    res = (res * 1LL * inverse(fact[n - r])) % MOD;
+    
+    return res;
 }
 
 void solve()
