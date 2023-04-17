@@ -61,6 +61,35 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWt)
     return dp[n - 1][maxWt];
 }
 
+#include <bits/stdc++.h> 
+
+int knapsack(vector<int> weight, vector<int> value, int n, int maxWt) 
+{
+    vector <vector <int>> dp (n, vector <int> (maxWt + 1, 0));
+    
+    for (int index = 0; index < n; index++)
+    {
+        for (int cap = 0; cap <= maxWt; cap++)
+        {
+            if (index == 0)
+            {
+                dp[index][cap] = (weight[index] <= cap) ? value[index] : 0;
+                continue;
+            }
+
+            int notTake = 0 + dp[index - 1][cap];
+            int take = INT_MIN;
+            
+            if (weight[index] <= cap)
+                take = value[index] + dp[index - 1][cap - weight[index]];
+                
+            dp[index][cap] = max (take, notTake);
+        }
+    }
+    
+    return dp[n - 1][maxWt];
+}
+
 
 //Solved by Tabulation Method (Little Space Optimized) (using 2 rows)
 #include <bits/stdc++.h> 
@@ -116,6 +145,35 @@ int knapsack(vector<int> weight, vector<int> value, int n, int maxWt)
                 
             dp[cap] = max (take, notTake);
         } 
+    }
+    
+    return dp[maxWt];
+}
+
+#include <bits/stdc++.h> 
+
+int knapsack(vector<int> weight, vector<int> value, int n, int maxWt) 
+{
+    vector <int> dp (maxWt + 1, 0);
+    
+    for (int index = 0; index < n; index++)
+    {
+        for (int cap = maxWt; cap >= 0; cap--)
+        {
+            if (index == 0)
+            {
+                dp[cap] = (weight[index] <= cap) ? value[index] : 0;
+                continue;
+            }
+
+            int notTake = 0 + dp[cap];
+            int take = INT_MIN;
+            
+            if (weight[index] <= cap)
+                take = value[index] + dp[cap - weight[index]];
+                
+            dp[cap] = max (take, notTake);
+        }
     }
     
     return dp[maxWt];
