@@ -53,6 +53,34 @@ public:
     }
 };
 
+class Solution {
+public:
+    
+    int minimumTotal(vector<vector<int>>& triangle) {
+        
+        int n = triangle.size();
+        vector<vector<int>> dp (n, vector<int> (n, -1));
+        
+        for (int i = n - 1; i>=0; i--)
+        {
+            for (int j = i; j>=0; j--)
+            {
+                if (i == n - 1)
+                {
+                    dp[i][j] = triangle[i][j];
+                    continue;
+                }
+
+                int down = triangle[i][j] + dp[i+1][j];
+                int diagonal = triangle[i][j] + dp[i+1][j+1];
+        
+                dp[i][j] = min (down, diagonal);
+            }
+        }
+        
+        return dp[0][0];
+    }
+};
 
 //Solved by Tabulation Method (Space Optimized)
 class Solution {
@@ -72,6 +100,39 @@ public:
             
             for (int j = i; j>=0; j--)
             {
+                int down = triangle[i][j] + dp[j];
+                int diagonal = triangle[i][j] + dp[j+1];
+        
+                temp[j] = min (down, diagonal);
+            }
+            
+            dp = temp;
+        }
+        
+        return dp[0];
+    }
+};
+
+class Solution {
+public:
+    
+    int minimumTotal(vector<vector<int>>& triangle) {
+        
+        int n = triangle.size();
+        vector<int> dp (n);
+
+        for (int i = n - 1; i>=0; i--)
+        {
+            vector <int> temp(n);
+            
+            for (int j = i; j>=0; j--)
+            {
+                if (i == n - 1)
+                {
+                    temp[j] = triangle[i][j];
+                    continue;
+                }
+                
                 int down = triangle[i][j] + dp[j];
                 int diagonal = triangle[i][j] + dp[j+1];
         
