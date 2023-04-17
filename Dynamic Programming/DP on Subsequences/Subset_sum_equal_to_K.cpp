@@ -60,6 +60,41 @@ bool subsetSumToK(int n, int k, vector<int> &arr) {
     return dp[n][k];
 }
 
+#include <bits/stdc++.h>
+using namespace std;
+
+bool subsetSumToK(int n, int k, vector<int> &arr) {
+    
+    vector <vector <bool>> dp (n, vector <bool> (k+1, false));
+    
+    for (int index = 0; index < n; index++)
+    {
+        for (int target = 0; target <= k; target++)
+        {
+            if (target == 0)
+            {
+                dp[index][target] = true;
+                continue;
+            }
+
+            if (index == 0)
+            {
+                dp[index][target] = (arr[index] == target);
+                continue;
+            }
+
+            bool left = dp[index - 1][target];
+            bool taken = false;
+            
+            if (arr[index] <= target)
+                taken = dp[index - 1][target - arr[index]];
+            
+            dp[index][target] = taken | left;
+        }
+    }
+    
+    return dp[n - 1][k];
+}
 
 
 //Solved by Tabulation Method (Space Optimized)
