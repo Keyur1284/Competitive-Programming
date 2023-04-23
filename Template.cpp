@@ -193,6 +193,22 @@ ll nCr(ll n, ll r)
     return res;
 }
 
+ll nPr(ll n, ll r) 
+{
+    if (r > n)
+        return 0;
+    
+    ll res = fact[n];
+    res = (res * 1LL * inverse(fact[n - r])) % MOD;
+    
+    return res;
+}
+
+int log_a_to_base_b(int a, int b)
+{
+    return (a > b - 1) ? 1 + log_a_to_base_b(a / b, b) : 0;
+}
+
 void solve()
 {
     
