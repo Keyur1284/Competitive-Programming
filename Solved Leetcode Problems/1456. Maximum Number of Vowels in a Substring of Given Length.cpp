@@ -66,3 +66,27 @@ public:
         return maxi;
     }
 };
+
+
+class Solution {
+public:
+    int maxVowels(string s, int k) {
+        
+        unordered_set <char> vowels {'a', 'e', 'i', 'o', 'u'};
+        
+        int temp = 0, maxi = 0;
+        int n = s.size();
+
+        for (int i = 0; i < n; i++)
+        {
+            temp += vowels.count(s[i]);
+
+            if (i >= k)
+                temp -= vowels.count(s[i - k]);
+
+            maxi = max(maxi, temp);
+        }
+
+        return maxi;
+    }
+};
