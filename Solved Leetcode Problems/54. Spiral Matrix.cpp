@@ -1,7 +1,7 @@
 // Problem Link :- https://leetcode.com/problems/spiral-matrix/
 
 // Time Complexity :- O(mn)
-// Space Complexity :- O(mn)
+// Space Complexity :- O(1)
 
 class Solution {
 public:
