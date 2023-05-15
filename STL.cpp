@@ -14,7 +14,13 @@ isalnum(str[i]);
 memset function is actually for char or 1 byte data types! 
 It works for 0 and -1 accidentally!
 Using memset to set all elements in an array to -1 or 0
-is cool as it works really faster than just looping through all the indices.  
+is cool as it works really faster than just looping through all the indices.
+
+Do not use pow() unless you are bound to use.
+Use round(pow(5, 2)) in this particular case to avoid the precision issue or just brute force.
+
+v.size() acts more like unsigned data types.
+Use in this way :- (int)v.size() i.e. do typecasting
 
 ARRAY
 
