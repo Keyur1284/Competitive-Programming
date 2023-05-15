@@ -29,7 +29,19 @@ Do not mix C style and C++ style printers after using ios_base::sync_with_stdio(
 + operator is higher than the & operator
 - has more precedence than the << operator
 
+One of the best ways to compute square roots is the following:
 
+long long x = (long long)1e18 - 1;
+long long k = sqrtl(x);
+while (k * k < x) ++k;
+while (k * k > x) --k;
+cout << k << '\n';
+
+While comparing two floating point numbers, instead of if (a == b), 
+use if (abs(a - b) < eps) where eps = 1e-9 or something similar to avoid precision issues.
+
+If you want to take the floor of the log of an integer n>0
+(same as finding the highest set bit of n), use __lg(n). Clean, fast, and simple
 
 ARRAY
 
@@ -93,6 +105,9 @@ vec.erase(remove(vec.begin(), vec.end(), key), vec.end());
 
 vec.emplace(vec.begin(), num) is used to insert an element at the front of the vector
 
+lower_bound(vec.begin(), vec.end(), value) is not O(logn)!
+Use vec.lower_bound(value), it is O(logn).
+
 auto it = find (vec.begin(), vec.end(), key) will return an iterator to the key if its found. Else it will return vec.end().
 
 vector<int> vec1(4, 0);  -> {0,0,0,0} ;
@@ -145,6 +160,9 @@ auto it = st.find(num) will return the iterator pointing to the number present i
                         If the num is not present, then it will point to st.end(). ;
 
 Hence, if (st.find(num) != st.end()) means the number is present in the set. ;
+
+lower_bound(set.begin(), set.end(), value) is not O(logn)!
+Use set.lower_bound(value), it is O(logn).
 
 
 unordered_set <datatype> set_name;
