@@ -11,6 +11,8 @@ If this size exceeds, then we'll get segmentation error!
 // Checks whether str[i] is either a decimal digit or an uppercase or lowercase letter.
 isalnum(str[i]);
 
+Some important points to be remembered :- 
+
 memset function is actually for char or 1 byte data types! 
 It works for 0 and -1 accidentally!
 Using memset to set all elements in an array to -1 or 0
@@ -21,6 +23,13 @@ Use round(pow(5, 2)) in this particular case to avoid the precision issue or jus
 
 v.size() acts more like unsigned data types.
 Use in this way :- (int)v.size() i.e. do typecasting
+
+Do not mix C style and C++ style printers after using ios_base::sync_with_stdio(0).
+
++ operator is higher than the & operator
+- has more precedence than the << operator
+
+
 
 ARRAY
 
