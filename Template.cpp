@@ -223,6 +223,8 @@ signed main()
     freopen("output.txt", "w", stdout);
     #endif
 
+    clock_t begin = clock();
+
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);cout.tie(NULL);
     
@@ -232,5 +234,8 @@ signed main()
     while (t--)
         solve();
     
+    printf("%.3lf seconds\n", (double) (clock() - begin) / CLOCKS_PER_SEC);
+
+
 	return 0;
 }
