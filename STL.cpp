@@ -11,6 +11,10 @@ If this size exceeds, then we'll get segmentation error!
 // Checks whether str[i] is either a decimal digit or an uppercase or lowercase letter.
 isalnum(str[i]);
 
+memset function is actually for char or 1 byte data types! 
+It works for 0 and -1 accidentally!
+Using memset to set all elements in an array to -1 or 0
+is cool as it works really faster than just looping through all the indices.  
 
 ARRAY
 
