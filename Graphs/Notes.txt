@@ -14,9 +14,11 @@ Lec 6 Notes : https://takeuforward.org/data-structure/depth-first-search-dfs/
 
 
 Lec 7 Notes : https://takeuforward.org/data-structure/number-of-provinces/
+Problem Link : https://leetcode.com/problems/number-of-provinces/
 
 
 Lec 8 Notes : https://takeuforward.org/graph/number-of-islands/
+Problem Link : https://leetcode.com/problems/number-of-islands/
 
 
 Lec 9 Notes : https://takeuforward.org/graph/flood-fill-algorithm-graphs/
