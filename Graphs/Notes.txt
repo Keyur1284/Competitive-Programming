@@ -43,6 +43,8 @@ Problem Link : https://practice.geeksforgeeks.org/problems/distance-of-nearest-c
 
 Lec 14 Notes : https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/
 Problem Link : https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1
+Problem Link : https://leetcode.com/problems/surrounded-regions/
+
 
 
 Lec 15 Notes : https://takeuforward.org/graph/number-of-enclaves/
