@@ -13,22 +13,21 @@ using namespace std;
 class Solution {
   public:
   
-    int dx[4] = {0, 0, 1, -1};
-    int dy[4] = {1, -1, 0, 0};
+    int dx[4] = {0, 0, 1, -1}, dy[4] = {1, -1, 0, 0};
     
-    void DFS (int x, int y, int basex, int basey, int n, int m, vector <pair<int, int>> &vec, vector <vector <int>> &vis, vector<vector<int>>& grid)
+    void DFS (int x, int y, int basex, int basey, int n, int m, vector<vector<bool>> &vis, 
+            vector<vector<int>> &vec, vector<vector<int>>& grid)
     {
-        vis[x][y] = 1;
+        vis[x][y] = true;
+        vec.push_back({x - basex, y - basey});
         
-        vec.emplace_back(x - basex, y - basey);
-        
-        for (int it = 0; it < 4; it++)
+        for (int i = 0; i < 4; i++)
         {
-            int newx = x + dx[it];
-            int newy = y + dy[it];
+            int newx = x + dx[i];
+            int newy = y + dy[i];
             
-            if (newx >= 0 && newy >= 0 && newx < n && newy < m && !vis[newx][newy] && grid[newx][newy] == 1)
-                DFS (newx, newy, basex, basey, n, m, vec, vis, grid);
+            if (newx >= 0 && newx < n && newy >= 0 && newy < m && grid[newx][newy] && !vis[newx][newy])
+                DFS (newx, newy, basex, basey, n, m, vis, vec, grid);
         }
     }
   
@@ -37,25 +36,24 @@ class Solution {
         int n = grid.size();
         int m = grid[0].size();
         
-        vector <vector <int>> vis (n, vector <int> (m, 0));
-        set <vector <pair <int, int>>> s;
+        vector<vector<bool>> vis (n, vector<bool> (m, false));
+        set<vector<vector<int>>> st;
         
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m; j++)
             {
-                if (!vis[i][j] && grid[i][j] == 1)
+                if (grid[i][j] && !vis[i][j])
                 {
-                    vector <pair<int, int>> vec;
-                    DFS (i, j, i, j, n, m, vec, vis, grid);
+                    vector<vector<int>> vec;
                     
-                    s.emplace(vec);
+                    DFS (i, j, i, j, n, m, vis, vec, grid);
+                    st.emplace(vec); 
                 }
-                
             }
         }
         
-        return s.size();
+        return (int)st.size();
     }
 };
 
