@@ -25,7 +25,7 @@ public:
             int newx = x + dx[i];
             int newy = y + dy[i];
             
-            if (newx >= 0 && newx < n && newx >= 0 && newy < m && mat[newx][newy] == 'O' && !vis[newx][newy])
+            if (newx >= 0 && newx < n && newy >= 0 && newy < m && mat[newx][newy] == 'O' && !vis[newx][newy])
                 DFS (newx, newy, n, m, vis, mat);
         }
     }
