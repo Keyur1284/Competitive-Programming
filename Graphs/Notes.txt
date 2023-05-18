@@ -22,9 +22,11 @@ Problem Link : https://leetcode.com/problems/number-of-islands/
 
 
 Lec 9 Notes : https://takeuforward.org/graph/flood-fill-algorithm-graphs/
+Problem Link : https://leetcode.com/problems/flood-fill/
 
 
 Lec 10 Notes : https://takeuforward.org/data-structure/rotten-oranges/
+Problem Link : https://leetcode.com/problems/rotting-oranges/
 
 
 Lec 11 Notes : https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
