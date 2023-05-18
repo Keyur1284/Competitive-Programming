@@ -5,61 +5,51 @@
 
 class Solution {
 public:
-    
-    int dx[4] = {0, 0, 1, -1};
-    int dy[4] = {1, -1, 0, 0};
-    
-    void DFS (int i, int j, int m, int n, vector<vector<int>>& grid, vector <vector<int>> &vis)
+
+    int dx[4] = {0, 0, 1, -1}, dy[4] = {1, -1, 0, 0};
+
+    void DFS (int x, int y, int m , int n, vector<vector<bool>> &vis, vector<vector<int>>& grid)
     {
-        vis[i][j] = 1;
+        vis[x][y] = true;
 
-        for (int it = 0; it < 4; it++)
+        for (int i = 0; i < 4; i++)
         {
-            int newx = i + dx[it];
-            int newy = j + dy[it];
+            int newx = x + dx[i];
+            int newy = y + dy[i];
 
-            if (newx >= 0 && newy >= 0 && newx < m && newy < n && !vis[newx][newy] && grid[newx][newy] == 1)
-                DFS (newx, newy, m, n, grid, vis);
+            if (newx >= 0 && newx < m && newy >= 0 && newy < n && grid[newx][newy] && !vis[newx][newy])
+                DFS (newx, newy, m, n, vis, grid);
         }
     }
-    
+
     int numEnclaves(vector<vector<int>>& grid) {
         
         int m = grid.size();
         int n = grid[0].size();
-        
-        vector <vector <int>> vis (m, vector <int> (n, 0));
-        
-        for (int i = 0; i <  m; i++)
-        {
-            if (grid[i][0] == 1 && !vis[i][0])
-                DFS (i, 0, m, n, grid, vis);
-            
-            if (grid[i][n - 1] == 1 && !vis[i][n - 1])
-                DFS (i, n - 1, m, n, grid, vis);
-        }
-        
-        for (int j = 0; j <  n; j++)
-        {
-            if (grid[0][j] == 1 && !vis[0][j])
-                DFS (0, j, m, n, grid, vis);
-            
-            if (grid[m - 1][j] == 1 && !vis[m - 1][j])
-                DFS (m - 1, j, m, n, grid, vis);
-        }
-        
-        int ans = 0;
-        
+
+        vector<vector<bool>> vis (m, vector<bool> (n, false));
+
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
             {
-                if (!vis[i][j] && grid[i][j] == 1)
-                    ans++;
+                if ((i * j == 0 || i == m - 1 || j == n - 1) && grid[i][j] && !vis[i][j])
+                    DFS (i, j, m, n, vis, grid);
             }
         }
-        
-        return ans;
+
+        int enclaves = 0;
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (grid[i][j] && !vis[i][j])
+                    enclaves++;
+            }
+        }
+
+        return enclaves;
     }
 };
 
@@ -68,46 +58,25 @@ public:
 
 class Solution {
 public:
-    
+    int dx[4] = {0, 0, 1, -1}, dy[4] = {1, -1, 0, 0};
+
     int numEnclaves(vector<vector<int>>& grid) {
         
         int m = grid.size();
         int n = grid[0].size();
-        
-        int dx[4] = {0, 0, 1, -1};
-        int dy[4] = {1, -1, 0, 0};
-        
-        vector <vector <int>> vis (m, vector <int> (n, 0));
-        
-        queue <pair <int, int>> q;
+    
+        vector<vector<bool>> vis (m, vector <bool> (n, false));
+        queue<pair<int, int>> q;
         
         for (int i = 0; i <  m; i++)
         {
-            if (grid[i][0] == 1 && !vis[i][0])
+            for (int j = 0; j <  n; j++)
             {
-                vis[i][0] = 1;
-                q.emplace(i, 0);
-            }
-            
-            if (grid[i][n - 1] == 1 && !vis[i][n - 1])
-            {
-                vis[i][n - 1] = 1;
-                q.emplace(i, n - 1);
-            }
-        }
-        
-        for (int j = 0; j <  n; j++)
-        {
-            if (grid[0][j] == 1 && !vis[0][j])
-            {
-                vis[0][j] = 1;
-                q.emplace(0, j);
-            }
-            
-            if (grid[m - 1][j] == 1 && !vis[m - 1][j])
-            {
-                vis[m - 1][j] = 1;
-                q.emplace(m - 1, j);
+                if ((i * j == 0 || i == m - 1 || j == n - 1) && grid[i][j])
+                {
+                    vis[i][j] = true;
+                    q.emplace(i, j);
+                }
             }
         }
         
@@ -122,7 +91,7 @@ public:
                 int newx = x + dx[it];
                 int newy = y + dy[it];
 
-                if (newx >= 0 && newy >= 0 && newx < m && newy < n && !vis[newx][newy] && grid[newx][newy] == 1)
+                if (newx >= 0 && newy >= 0 && newx < m && newy < n && !vis[newx][newy] && grid[newx][newy])
                 {
                     vis[newx][newy] = 1;
                     q.emplace(newx, newy);
@@ -130,18 +99,143 @@ public:
             }
         }
         
-        
-        int ans = 0;
+        int enclaves = 0;
         
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
             {
-                if (!vis[i][j] && grid[i][j] == 1)
-                    ans++;
+                if (!vis[i][j] && grid[i][j])
+                    enclaves++;
             }
         }
         
-        return ans;
+        return enclaves;
+    }
+};
+
+
+//Solved by Union Find
+
+class DSU {
+private:
+
+    vector<int> parent, rank, size;
+
+public:
+
+    DSU (int n)
+    {
+        for (int i = 0; i <= n; i++)
+        {
+            parent.emplace_back(i);
+            rank.emplace_back(0);
+            size.emplace_back(1);
+        }
+    }
+
+    int findPar(int node)
+    {
+        if (node == parent[node])
+            return node;
+
+        return parent[node] = findPar(parent[node]);
+    }
+
+    void UnionRank (int u, int v)
+    {
+        u = findPar(u);
+        v = findPar(v);
+
+        if (u == v)
+            return;
+
+        if (rank[u] < rank[v])
+            parent[u] = v;
+
+        else if (rank[u] > rank[v])
+            parent[v] = u;
+
+        else if (rank[u] == rank[v])
+        {
+            rank[u]++;
+            parent[v] = u;
+        }
+    }
+
+    void UnionSize (int u, int v)
+    {
+        u = findPar(u);
+        v = findPar(v);
+
+        if (u == v)
+            return;
+
+        if (size[u] < size[v])
+        {
+            size[v] += size[u];
+            parent[u] = v;
+        }
+
+        else if (size[u] >= size[v])
+        {
+            size[u] += size[v];
+            parent[v] = u;
+        }
+    }
+};
+
+
+class Solution {
+public:
+    int dx[4] = {0, 0, 1, -1}, dy[4] = {1, -1, 0, 0};
+
+    int numEnclaves(vector<vector<int>>& grid) {
+        
+        int m = grid.size();
+        int n = grid[0].size();
+
+        DSU dsu (m * n);
+        int boundary = m * n;
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if ((i * j == 0 || i == m - 1 || j == n - 1) && grid[i][j])
+                    dsu.UnionRank(i * n + j, boundary);
+            }
+        }
+
+        for (int i = 1; i < m - 1; i++)
+        {
+            for (int j = 1; j < n - 1; j++)
+            {
+                if (grid[i][j] == 1)
+                {
+                    for (int dir = 0; dir < 4; dir++)
+                    {
+                        int newx = i + dx[dir];
+                        int newy = j + dy[dir];
+
+                        if (newx >= 0 && newx < m && newy >= 0 && newy < n && grid[newx][newy])
+                            dsu.UnionRank(i * n + j, newx * n + newy);
+                    }
+                }
+            }
+        }
+
+        int enclaves = 0;
+
+        for (int i = 1; i < m - 1; i++)
+        {
+            for (int j = 1; j < n - 1; j++)
+            {
+                if (grid[i][j] && dsu.findPar(i * n + j) != dsu.findPar(boundary))
+                    enclaves++;
+            }
+        }
+
+        return enclaves;
     }
 };
