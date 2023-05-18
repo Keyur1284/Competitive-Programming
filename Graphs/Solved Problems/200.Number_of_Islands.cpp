@@ -149,9 +149,11 @@ public:
 
 class DSU {
 
-public:
+private:
     
     vector<int> parent, rank, size;
+
+public:
 
     DSU (int n)
     {
@@ -252,7 +254,7 @@ public:
 
         for (int cell = 0; cell < m * n; cell++)
         {
-            if (grid[cell/n][cell % n] == '1' && dsu.parent[cell] == cell)
+            if (grid[cell/n][cell % n] == '1' && dsu.findPar(cell) == cell)
                 count++;
         }
 
