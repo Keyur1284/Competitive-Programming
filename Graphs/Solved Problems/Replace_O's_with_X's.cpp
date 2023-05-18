@@ -12,44 +12,34 @@ using namespace std;
 
 class Solution{
 public:
-
-    int dx[4] = {0, 0, 1, -1};
-    int dy[4] = {1, -1, 0, 0};
     
-    void DFS (int i, int j, int n, int m, vector<vector<char>>& mat, vector <vector<int>> &vis)
+    int dx[4] = {-1, 1, 0, 0}, dy[4] = {0, 0, 1, -1};
+    
+    void DFS (int x, int y, int n, int m, vector<vector<bool>> &vis, vector<vector<char>> &mat)
     {
-        vis[i][j] = 1;
-
-        for (int it = 0; it < 4; it++)
+        vis[x][y] = true;
+        
+        for (int i = 0; i < 4; i++)
         {
-            int newx = i + dx[it];
-            int newy = j + dy[it];
-
-            if (newx >= 0 && newy >= 0 && newx < n && newy < m && !vis[newx][newy] && mat[newx][newy] == 'O')
-                DFS (newx, newy, n, m, mat, vis);
+            int newx = x + dx[i];
+            int newy = y + dy[i];
+            
+            if (newx >= 0 && newx < n && newx >= 0 && newy < m && mat[newx][newy] == 'O' && !vis[newx][newy])
+                DFS (newx, newy, n, m, vis, mat);
         }
     }
 
-    vector<vector<char>> fill(int n, int m, vector<vector<char>> mat)
+    vector<vector<char>> fill(int n, int m, vector<vector<char>> &mat)
     {
-        vector <vector <int>> vis (n, vector <int> (m, 0));
+        vector<vector<bool>> vis(n, vector<bool> (m, false));
         
         for (int i = 0; i < n; i++)
         {
-            if (mat[i][0] == 'O' && !vis[i][0])
-                DFS (i, 0, n, m, mat, vis);
-                
-            if (mat[i][m - 1] == 'O' && !vis[i][m - 1])
-                DFS (i, m - 1, n, m, mat, vis);
-        }
-        
-        for (int j = 0; j < m; j++)
-        {
-            if (mat[0][j] == 'O' && !vis[0][j])
-                DFS (0, j, n, m, mat, vis);
-                
-            if (mat[n - 1][j] == 'O' && !vis[n - 1][j])
-                DFS (n - 1, j, n, m, mat, vis);
+            for (int j = 0; j < m; j++)
+            {
+                if ((i * j == 0 || i == n - 1 || j == m - 1) && mat[i][j] == 'O' && !vis[i][j])
+                    DFS (i, j, n, m, vis, mat);
+            }
         }
         
         for (int i = 0; i < n; i++)
