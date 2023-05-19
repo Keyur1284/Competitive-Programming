@@ -56,9 +56,13 @@ Problem Link : https://practice.geeksforgeeks.org/problems/number-of-distinct-is
 
 
 Lec 17 Notes : https://takeuforward.org/graph/bipartite-graph-bfs-implementation/
+Problem Link : https://practice.geeksforgeeks.org/problems/bipartite-graph/1
+Problem Link : https://leetcode.com/problems/is-graph-bipartite/
 
 
 Lec 18 Notes : https://takeuforward.org/graph/bipartite-graph-dfs-implementation/
+Problem Link : https://practice.geeksforgeeks.org/problems/bipartite-graph/1
+Problem Link : https://leetcode.com/problems/is-graph-bipartite/
 
 
 Lec 19 Notes : https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/
