@@ -66,15 +66,19 @@ Problem Link : https://leetcode.com/problems/is-graph-bipartite/
 
 
 Lec 19 Notes : https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/
+Problem Link : https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 
 Lec 20 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states-dfs-g-20/
+Problem Link : https://leetcode.com/problems/find-eventual-safe-states/
 
 
 Lec 21 Notes : https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/
+Problem Link :- https://practice.geeksforgeeks.org/problems/topological-sort/1
 
 
 Lec 22 Notes : https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/
+Problem Link :- https://practice.geeksforgeeks.org/problems/topological-sort/1
 
 
 Lec 23 Notes : https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
