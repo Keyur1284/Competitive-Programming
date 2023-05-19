@@ -105,9 +105,6 @@ vec.erase(remove(vec.begin(), vec.end(), key), vec.end());
 
 vec.emplace(vec.begin(), num) is used to insert an element at the front of the vector
 
-lower_bound(vec.begin(), vec.end(), value) is not O(logn)!
-Use vec.lower_bound(value), it is O(logn).
-
 auto it = find (vec.begin(), vec.end(), key) will return an iterator to the key if its found. Else it will return vec.end().
 
 vector<int> vec1(4, 0);  -> {0,0,0,0} ;
