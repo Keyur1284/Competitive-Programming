@@ -92,3 +92,7 @@ Problem Link : https://leetcode.com/problems/course-schedule-ii/
 
 Lec 25 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/
 Problem Link : https://leetcode.com/problems/find-eventual-safe-states/
+
+
+Lec 26 Notes : https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/
+Problem Link : https://practice.geeksforgeeks.org/problems/alien-dictionary/1
