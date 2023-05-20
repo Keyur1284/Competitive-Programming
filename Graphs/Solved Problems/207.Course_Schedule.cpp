@@ -59,27 +59,6 @@ public:
 class Solution {
 public:
 
-    bool checkCycle (int node, vector<bool> &vis, vector<bool> &dfsVis, vector<int> adj[])
-    {
-        vis[node] = true;
-        dfsVis[node] = true;
-
-        for (auto &it : adj[node])
-        {
-            if (!vis[it])
-            {
-                if (checkCycle(it, vis, dfsVis, adj))
-                    return true;
-            }
-
-            else if (vis[it] && dfsVis[it])
-                return true;
-        }
-
-        dfsVis[node] = false;
-        return false;
-    }
-
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         
         vector<int> adj[numCourses], indegree(numCourses, 0);
