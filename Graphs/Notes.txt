@@ -74,17 +74,21 @@ Problem Link : https://leetcode.com/problems/find-eventual-safe-states/
 
 
 Lec 21 Notes : https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/
-Problem Link :- https://practice.geeksforgeeks.org/problems/topological-sort/1
+Problem Link : https://practice.geeksforgeeks.org/problems/topological-sort/1
 
 
 Lec 22 Notes : https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/
-Problem Link :- https://practice.geeksforgeeks.org/problems/topological-sort/1
+Problem Link : https://practice.geeksforgeeks.org/problems/topological-sort/1
 
 
 Lec 23 Notes : https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
+Problem Link : https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 
 Lec 24 Notes : https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/
+Problem Link : https://leetcode.com/problems/course-schedule/
+Problem Link : https://leetcode.com/problems/course-schedule-ii/
 
 
 Lec 25 Notes : https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/
+Problem Link : https://leetcode.com/problems/find-eventual-safe-states/
