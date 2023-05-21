@@ -96,3 +96,15 @@ Problem Link : https://leetcode.com/problems/find-eventual-safe-states/
 
 Lec 26 Notes : https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/
 Problem Link : https://practice.geeksforgeeks.org/problems/alien-dictionary/1
+
+
+Lec 27 Notes : https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort-g-27/
+Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
+
+
+Lec 28 Notes : https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/
+Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1
+
+
+Lec 29 Notes : https://takeuforward.org/graph/word-ladder-i-g-29/
+https://leetcode.com/problems/word-ladder/
