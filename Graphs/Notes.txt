@@ -117,3 +117,7 @@ Problem Link : https://practice.geeksforgeeks.org/problems/word-ladder-ii/1
 
 Lec 31 Notes : https://takeuforward.org/graph/word-ladder-ii-optimised-approach-g-31/
 Problem Link : https://leetcode.com/problems/word-ladder-ii/
+
+
+Lec 32 Notes : https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/
+Problem Link : https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
