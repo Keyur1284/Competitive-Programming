@@ -109,3 +109,11 @@ Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-undi
 Lec 29 Notes : https://takeuforward.org/graph/word-ladder-i-g-29/
 Problem Link : https://leetcode.com/problems/word-ladder/
 Problem Link : https://practice.geeksforgeeks.org/problems/word-ladder/0
+
+
+Lec 30 Notes : https://takeuforward.org/graph/g-30-word-ladder-ii/
+Problem Link : https://practice.geeksforgeeks.org/problems/word-ladder-ii/1
+
+
+Lec 31 Notes : https://takeuforward.org/graph/word-ladder-ii-optimised-approach-g-31/
+Problem Link : https://leetcode.com/problems/word-ladder-ii/
