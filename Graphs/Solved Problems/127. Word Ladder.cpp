@@ -8,10 +8,6 @@ public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         
         unordered_set<string> dict (wordList.begin(), wordList.end());
-        
-        if (dict.find(endWord) == dict.end())
-            return 0;
-
         queue<pair<string, int>> BFS;
 
         BFS.emplace(beginWord, 1);
