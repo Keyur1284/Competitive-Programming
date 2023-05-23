@@ -121,3 +121,22 @@ Problem Link : https://leetcode.com/problems/word-ladder-ii/
 
 Lec 32 Notes : https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/
 Problem Link : https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+
+
+Lec 33 Notes : https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/
+Problem Link : https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+
+
+Lec 34 Notes : https://takeuforward.org/data-structure/g-34-dijkstras-algorithm-intuition-and-time-complexity-derivation/
+
+
+Lec 35 Notes : https://takeuforward.org/data-structure/g-35-print-shortest-path-dijkstras-algorithm/
+Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1
+
+
+Lec 36 Notes : https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/
+Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1
+
+
+Lec 37 Notes : https://takeuforward.org/data-structure/g-37-shortest-distance-in-a-maze/
+Problem Link : https://practice.geeksforgeeks.org/problems/path-with-minimum-effort/1
