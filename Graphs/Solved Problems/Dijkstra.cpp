@@ -1,6 +1,6 @@
 // Problem Link :- https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-// Time Complexity :- O(ElogV)
+// Time Complexity :- O(ElogV)      E = no. of edges, V = no. of vertices  (E = V^2) {Worst Case}
 // Space Complexity :- O(V)
 
 // Dijkstra's Algorithm is used to find the shortest path 
