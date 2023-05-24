@@ -164,3 +164,11 @@ Problem Link : https://practice.geeksforgeeks.org/problems/distance-from-the-sou
 
 Lec 42 Notes : https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/
 Problem Link : https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+
+
+Lec 43 Notes : https://takeuforward.org/data-structure/find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance-g-43/
+Problem Link : https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+Problem Link : https://practice.geeksforgeeks.org/problems/city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/1
+
+
+Lec 44 Notes : https://takeuforward.org/data-structure/minimum-spanning-tree-theory-g-44/
