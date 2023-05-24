@@ -1,3 +1,16 @@
+// It is used to detect negative cycle in a graph.
+// It works only when we are given directed graph.
+// In case of undirected graph, convert into a directed graph having edges from a to b and b to a of same edge weights.
+// If path-weight < 0, then it is confirmed that the graph has a negative cycle.
+
+// Algorithm :-
+// 1. Initialize dist[] = {INF, INF, INF, INF, INF, INF} and dist[source] = 0.
+// 2. Relax all edges V - 1 times.
+// 3. If dist[u] + wt < dist[v], then dist[v] = dist[u] + wt.
+// 4. If dist[u] + wt < dist[v] for any edge after relaxing, then there is a negative cycle in the graph.
+// 5. If there is no negative cycle, then dist[] will contain the shortest path from source to all other vertices.
+
+
 #include <bits/stdc++.h>
 using namespace std;
 int INF = 1e7;
