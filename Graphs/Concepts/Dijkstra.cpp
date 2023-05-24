@@ -1,3 +1,10 @@
+// Dijkstra's Algorithm is used to find the shortest path 
+// from a source vertex to all other vertices in a graph with non-negative edge weight.
+// It fails in case of graphs containing negative edges.
+// If a graph has negative cycle, it will give TLE i.e. it will run for infinite time.
+// In such cases, for detecting a negative cycle, we use Bellman Ford's Algorithm
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
