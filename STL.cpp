@@ -379,7 +379,7 @@ Inorder to get the index, we will subtract vec.begin() or arr from it. Index = i
 if the find returns vec.end() to it i.e. it = vec.end(), this means that the element is not present in the vector. ;
 
 Binary Search ;
-It's return type is bool ;
+Its return type is bool ;
 This will work if the vector/array is sorted ;
 For searching a number ;
 binary_search (StartIterator, EndIterator, num) will return true if the num is present or else it will return false. ;
@@ -400,12 +400,12 @@ In case of set and map, dont use upper bound and lower bound like this
 Instead use like this : s.lower_bound(key), s.upper_bound(key), mp.lower_bound(key), mp.upper_bound(key)
 
 Next Permutation ;
-It's return type is bool ;
+Its return type is bool ;
 If the next permutation of any array/vector/string exist, it will return true. Else it will return false ;
 bool ans = next_permutation(vec.begin(), vec.end()) ;
 
 Prev Permutation ;
-It's return type is bool ;
+Its return type is bool ;
 If the previous permutation of any array/vector/string exist, it will return true. Else it will return false ;
 bool ans = prev_permutation(vec.begin(), vec.end()) ;
 
