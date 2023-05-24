@@ -172,3 +172,7 @@ Problem Link : https://practice.geeksforgeeks.org/problems/city-with-the-smalles
 
 
 Lec 44 Notes : https://takeuforward.org/data-structure/minimum-spanning-tree-theory-g-44/
+
+
+Lec 45 Notes : https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/
+Problem Link : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
