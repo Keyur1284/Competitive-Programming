@@ -1,5 +1,9 @@
 // Problem Link :- https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
 
+// Spanning tree :  Whenever we can draw a tree from a given undirected weighted graph such that 
+// this tree has all the N nodes and the no. of edges is N - 1 such that every node is reachable from every other node.
+// Minimum spanning tree(MST) has minimum sum of edge-weight. 
+
 // Solved by Prim's Algorithm
 // Time Complexity :- O(ElogV)
 // Space Complexity :- O(E + V)
