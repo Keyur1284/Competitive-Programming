@@ -136,7 +136,14 @@ Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-weig
 
 Lec 36 Notes : https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/
 Problem Link : https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1
+Problem Link : https://leetcode.com/problems/shortest-path-in-binary-matrix/
 
 
-Lec 37 Notes : https://takeuforward.org/data-structure/g-37-shortest-distance-in-a-maze/
+Lec 37 Notes : https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/
 Problem Link : https://practice.geeksforgeeks.org/problems/path-with-minimum-effort/1
+Problem Link : https://leetcode.com/problems/path-with-minimum-effort/
+
+
+Lec 38 Notes : https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/
+Problem Link : https://practice.geeksforgeeks.org/problems/cheapest-flights-within-k-stops/1
+Problem Link : https://leetcode.com/problems/cheapest-flights-within-k-stops/
