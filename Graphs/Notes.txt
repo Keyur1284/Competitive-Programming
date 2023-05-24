@@ -149,6 +149,18 @@ Problem Link : https://practice.geeksforgeeks.org/problems/cheapest-flights-with
 Problem Link : https://leetcode.com/problems/cheapest-flights-within-k-stops/
 
 
-
 Lec 39 Notes : https://takeuforward.org/graph/g-39-minimum-multiplications-to-reach-end/
 Problem Link : https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1
+
+
+Lec 40 Notes : https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/
+Problem Link : https://practice.geeksforgeeks.org/problems/number-of-ways-to-arrive-at-destination/1
+Problem Link : https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
+
+
+Lec 41 Notes : https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/
+Problem Link : https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+
+
+Lec 42 Notes : https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/
+Problem Link : https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
