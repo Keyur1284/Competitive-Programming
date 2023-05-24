@@ -429,6 +429,36 @@ bool comp(pair<int,int> el1, pair<int,int> el2) {
 
 // In C++, comparator should return false if its arguments are equal.
 
+
+For using comparator in case of priority_queue, we need to make a special struct of the comparator
+For example : 
+
+struct comp {
+    bool operator()(int &a, int &b) {
+        return a > b;
+    }
+};
+
+priority_queue<int, vector<int>, comp> pq;
+
+If we want min value at the top of the priority_queue, our comp should be like : 
+
+struct comp {
+    bool operator()(int &a, int &b) {
+        return a > b;
+    }
+};
+
+
+
+If we want max value at the top of the priority_queue, our comp should be like : 
+
+struct comp {
+    bool operator()(int &a, int &b) {
+        return a < b;
+    }
+};
+
 Lambda Function 
 
 all_of (vec.begin(), vec.end(), [](int x, ..parameters) {write condition return x > 0 ;})  // Will return true only if all the elements satisfy the condition
