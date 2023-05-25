@@ -176,3 +176,14 @@ Lec 44 Notes : https://takeuforward.org/data-structure/minimum-spanning-tree-the
 
 Lec 45 Notes : https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/
 Problem Link : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
+
+
+Lec 46 Notes : https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/
+
+
+Lec 47 Notes : https://takeuforward.org/data-structure/kruskals-algorithm-minimum-spanning-tree-g-47/
+Problem Link : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
+
+
+Lec 48 Notes : Coming Soon
+Problem Link : https://leetcode.com/problems/number-of-provinces/
