@@ -196,3 +196,16 @@ Problem Link : https://practice.geeksforgeeks.org/problems/connecting-the-graph/
 Lec 50 Notes : https://takeuforward.org/data-structure/accounts-merge-dsu-g-50/
 Problem Link : https://leetcode.com/problems/accounts-merge/
 Problem Link : https://practice.geeksforgeeks.org/problems/account-merge/1
+
+
+Lec 51 Notes : https://takeuforward.org/graph/number-of-islands-ii-online-queries-dsu-g-51/
+Problem Link : https://practice.geeksforgeeks.org/problems/number-of-islands/1
+
+
+Lec 52 Notes : https://takeuforward.org/data-structure/making-a-large-island-dsu-g-52/
+Problem Link : https://practice.geeksforgeeks.org/problems/maximum-connected-group/1
+
+
+Lec 53 Notes : https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/
+Problem Link : https://practice.geeksforgeeks.org/problems/maximum-stone-removal-1662179442/1   
+Problem Link : https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
