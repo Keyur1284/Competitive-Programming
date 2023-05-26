@@ -1,4 +1,12 @@
 //This algorithm is for finding the different strongly connected components of the given graph
+// Strongly Connected Components (SCC) are only valid for directed graph
+
+// Algorithm:
+// 1. Do a DFS traversal of the graph and push the nodes in a stack after visiting all the adjacent nodes
+// 2. Reverse the graph
+// 3. Pop the nodes from the stack and do a DFS traversal of the graph
+// 4. The nodes visited in the DFS traversal are the strongly connected components of the graph
+
 
 #include <bits/stdc++.h>
 using namespace std;
