@@ -187,3 +187,12 @@ Problem Link : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree
 
 Lec 48 Notes : Coming Soon
 Problem Link : https://leetcode.com/problems/number-of-provinces/
+
+
+Lec 49 Notes : https://takeuforward.org/data-structure/number-of-operations-to-make-network-connected-dsu-g-49/
+Problem Link : https://practice.geeksforgeeks.org/problems/connecting-the-graph/1
+
+
+Lec 50 Notes : https://takeuforward.org/data-structure/accounts-merge-dsu-g-50/
+Problem Link : https://leetcode.com/problems/accounts-merge/
+Problem Link : https://practice.geeksforgeeks.org/problems/account-merge/1
