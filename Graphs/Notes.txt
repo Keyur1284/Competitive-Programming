@@ -209,3 +209,15 @@ Problem Link : https://practice.geeksforgeeks.org/problems/maximum-connected-gro
 Lec 53 Notes : https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/
 Problem Link : https://practice.geeksforgeeks.org/problems/maximum-stone-removal-1662179442/1   
 Problem Link : https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+
+
+Lec 54 Notes : https://takeuforward.org/graph/strongly-connected-components-kosarajus-algorithm-g-54/
+Problem Link : https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+
+
+Lec 55 Notes : https://takeuforward.org/graph/bridges-in-graph-using-tarjans-algorithm-of-time-in-and-low-time-g-55/
+Problem Link : https://leetcode.com/problems/critical-connections-in-a-network/
+
+
+Lec 56 Notes : https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/
+Problem Link : https://practice.geeksforgeeks.org/problems/articulation-point-1/1
