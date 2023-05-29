@@ -103,6 +103,7 @@ Problem Link :- https://leetcode.com/problems/diameter-of-binary-tree/
 
 Lec 17 : https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/
 Problem Link :- https://leetcode.com/problems/binary-tree-maximum-path-sum/
+Special Problem Link (A little typical problem) :- https://practice.geeksforgeeks.org/problems/maximum-path-sum/1
 
 Lec 18 : https://takeuforward.org/data-structure/check-if-two-trees-are-identical/
 Problem Link :- https://leetcode.com/problems/same-tree/
@@ -140,3 +141,4 @@ Problem Link :- https://leetcode.com/problems/maximum-width-of-binary-tree/
 
 Lec 29 : https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/
 Problem Link :- https://www.codingninjas.com/codestudio/problems/childrensumproperty_790723
+Problem Link :- https://practice.geeksforgeeks.org/problems/children-sum-parent/1
