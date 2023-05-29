@@ -68,9 +68,6 @@ public:
     }
 
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        
-        if (!check(p, q))
-            return false;
 
         queue<pair<TreeNode*, TreeNode*>> que;
         que.emplace(p, q);
