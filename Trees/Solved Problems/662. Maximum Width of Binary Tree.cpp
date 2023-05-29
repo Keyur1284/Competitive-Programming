@@ -85,8 +85,8 @@ public:
 
         ans = max(ans, index - start[depth] + 1);
 
-        DFS (root->left, depth + 1, 2 * index, ans, start);
-        DFS (root->right, depth + 1, 2 * index + 1, ans, start);
+        DFS (root->left, depth + 1, 2 * index + 1, ans, start);
+        DFS (root->right, depth + 1, 2 * index + 2, ans, start);
     }
 
     int widthOfBinaryTree(TreeNode* root) {
