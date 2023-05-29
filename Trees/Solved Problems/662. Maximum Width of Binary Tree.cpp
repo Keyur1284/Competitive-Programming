@@ -75,27 +75,29 @@ public:
 class Solution {
 public:
 
-    void DFS (TreeNode* root, unsigned long long depth, unsigned long long index, unsigned long long &ans, unordered_map<unsigned long long, unsigned long long> &start)
+    unordered_map <int, int> mp;
+    int maxi = 0;
+
+    void DFS (TreeNode* node, int level, int index)
     {
-        if (root == NULL)
+        if (node == NULL)
             return;
 
-        if (start.find(depth) == start.end())
-            start[depth] = index;
+        if (mp.find(level) == mp.end())
+            mp[level] = index;
 
-        ans = max(ans, index - start[depth] + 1);
+        index = index - mp[level];
 
-        DFS (root->left, depth + 1, 2 * index, ans, start);
-        DFS (root->right, depth + 1, 2 * index + 1, ans, start);
+        maxi = max(maxi, index + 1);
+
+        DFS (node->left, level + 1, 2LL * index + 1);
+        DFS (node->right, level + 1, 2LL * index + 2);
     }
 
     int widthOfBinaryTree(TreeNode* root) {
-
-        unordered_map<unsigned long long, unsigned long long> start;
-        unsigned long long ans = 0;
-
-        DFS (root, 0, 0, ans, start);
         
-        return ans;
+        DFS(root, 0, 0);
+
+        return maxi;
     }
 };
