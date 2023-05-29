@@ -126,7 +126,7 @@ Lec 24 : https://takeuforward.org/data-structure/right-left-view-of-binary-tree/
 Problem Link :- https://leetcode.com/problems/binary-tree-right-side-view/
 Problem Link :- https://www.codingninjas.com/codestudio/problems/left-view-of-binary-tree_625707
 
-Lec 25 : 
+Lec 25 : https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/
 Problem Link :- https://leetcode.com/problems/symmetric-tree/
 
 Lec 26 : https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/
