@@ -221,3 +221,8 @@ Problem Link : https://leetcode.com/problems/critical-connections-in-a-network/
 
 Lec 56 Notes : https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/
 Problem Link : https://practice.geeksforgeeks.org/problems/articulation-point-1/1
+
+
+Practice Questions :- 
+
+1. https://practice.geeksforgeeks.org/problems/word-search/1
