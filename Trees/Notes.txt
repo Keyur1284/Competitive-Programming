@@ -152,3 +152,20 @@ Problem Link :- https://practice.geeksforgeeks.org/problems/nodes-at-given-dista
 Lec 31 :
 Problem Link :- https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 Problem Link :- https://practice.geeksforgeeks.org/problems/burning-tree/1
+
+Lec 32 : https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/
+Problem Link :- https://leetcode.com/problems/count-complete-tree-nodes/
+
+Lec 33 :
+
+When we are given preorder and postorder traversals, we CANNOT construct a unique binary tree.
+Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+
+When we are given inorder and postorder traversals, we CAN construct a unique binary tree.
+Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
+When we are given inorder and preorder traversals, we CAN construct a unique binary tree.
+Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+Lec 34 : https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/
+Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
