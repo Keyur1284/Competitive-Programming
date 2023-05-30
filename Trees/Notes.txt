@@ -80,6 +80,8 @@ In this traversal, the tree is traversed level by level from left to right.
 
 Lecture Notes
 
+Tree Series :- https://takeuforward.org/data-structure/strivers-tree-series-tree-data-structure/
+
 Lec 5, 9 : https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/
 Problem Link :- https://leetcode.com/problems/binary-tree-preorder-traversal/
 
@@ -142,3 +144,11 @@ Problem Link :- https://leetcode.com/problems/maximum-width-of-binary-tree/
 Lec 29 : https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/
 Problem Link :- https://www.codingninjas.com/codestudio/problems/childrensumproperty_790723
 Problem Link :- https://practice.geeksforgeeks.org/problems/children-sum-parent/1
+
+Lec 30 : 
+Problem Link :- https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+Problem Link :- https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1
+
+Lec 31 :
+Problem Link :- https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
+Problem Link :- https://practice.geeksforgeeks.org/problems/burning-tree/1
