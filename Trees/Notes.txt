@@ -198,3 +198,6 @@ Problem Link :- https://www.codingninjas.com/codestudio/problems/floor-from-bst_
 
 Lec 43 :
 Problem Link :- https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
+Lec 44 : 
+Problem Link :- https://leetcode.com/problems/delete-node-in-a-bst/
