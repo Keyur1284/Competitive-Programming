@@ -169,3 +169,9 @@ Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-preorde
 
 Lec 34 : https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/
 Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+Lec 35 : https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/
+Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
+Lec 36 : https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/
+Problem Link :- https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
