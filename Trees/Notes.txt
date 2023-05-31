@@ -184,3 +184,17 @@ Problem Link :- https://leetcode.com/problems/binary-tree-preorder-traversal/
 
 Lec 38 : https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/
 Problem Link :- https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+
+Lec 39 :
+
+Lec 40 : 
+Problem Link :- https://leetcode.com/problems/search-in-a-binary-search-tree/
+
+Lec 41 :
+Problem Link :- https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
+
+Lec 42 : 
+Problem Link :- https://www.codingninjas.com/codestudio/problems/floor-from-bst_920457
+
+Lec 43 :
+Problem Link :- https://leetcode.com/problems/insert-into-a-binary-search-tree/
