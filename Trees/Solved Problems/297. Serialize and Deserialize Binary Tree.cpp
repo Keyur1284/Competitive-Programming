@@ -147,3 +147,97 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec ser, deser;
 // TreeNode* ans = deser.deserialize(ser.serialize(root));
+
+
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Codec {
+public:
+
+    // Encodes a tree to a single string.
+    string serialize(TreeNode* root) {
+        
+        string levelOrder = "";
+        queue<TreeNode*> q;
+        q.emplace(root);
+
+        while (!q.empty())
+        {
+            TreeNode* node = q.front();
+            q.pop();
+
+            if (node == NULL)
+                levelOrder += "$,";
+
+            else
+            {
+                string data = to_string(node->val) + ",";
+                levelOrder += data;
+                q.emplace(node->left);
+                q.emplace(node->right);
+            }
+        }
+
+        return levelOrder;
+    }
+
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        
+        stringstream ss(data);
+        string st;
+
+        getline (ss, st, ',');
+        
+        if (st == "$")
+            return NULL;
+
+        TreeNode* root = new TreeNode(stoi(st));
+        queue<TreeNode*> q;
+        q.emplace(root);
+
+        while (!q.empty())
+        {
+            TreeNode* node = q.front();
+            q.pop();
+
+            getline (ss, st, ',');
+
+            if (st == "$")
+                node->left = NULL;
+
+            else
+            {
+                TreeNode* leftNode = new TreeNode (stoi(st));
+                node->left = leftNode;
+                q.emplace(leftNode);
+            }
+
+            getline (ss, st, ',');
+
+            if (st == "$")
+                node->right = NULL;
+
+            else
+            {
+                TreeNode* rightNode = new TreeNode (stoi(st));
+                node->right = rightNode;
+                q.emplace(rightNode);
+            }
+        }
+
+        return root;
+    }
+};
+
+// Your Codec object will be instantiated and called as such:
+// Codec ser, deser;
+// TreeNode* ans = deser.deserialize(ser.serialize(root));
