@@ -175,3 +175,12 @@ Problem Link :- https://leetcode.com/problems/construct-binary-tree-from-inorder
 
 Lec 36 : https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/
 Problem Link :- https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
+Lec 37 : https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/
+         https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/
+
+Problem Link :- https://leetcode.com/problems/binary-tree-inorder-traversal/
+Problem Link :- https://leetcode.com/problems/binary-tree-preorder-traversal/
+
+Lec 38 : https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/
+Problem Link :- https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
