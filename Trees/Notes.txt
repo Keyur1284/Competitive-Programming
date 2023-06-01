@@ -201,3 +201,30 @@ Problem Link :- https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
 Lec 44 : 
 Problem Link :- https://leetcode.com/problems/delete-node-in-a-bst/
+
+Lec 45 : https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/
+Problem Link :- https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+Lec 46 :
+Problem Link :- https://leetcode.com/problems/validate-binary-search-tree/
+
+Lec 47 :
+Problem Link :- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+Lec 48 :
+Problem Link :- https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+
+Lec 49 :
+Problem Link :- https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1
+
+Lec 50 :
+Problem Link :- https://leetcode.com/problems/binary-search-tree-iterator/
+
+Lec 51 :
+Problem Link :- https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+
+Lec 52 : 
+Problem Link :- https://leetcode.com/problems/recover-binary-search-tree/
+
+Lec 53 :
+Problem Link :- https://practice.geeksforgeeks.org/problems/largest-bst/1
