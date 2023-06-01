@@ -2,6 +2,8 @@
     "files.associations": {
         "cstddef": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "xiosbase": "cpp",
+        "ios": "cpp"
     }
 }
