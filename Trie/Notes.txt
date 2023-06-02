@@ -1,0 +1,23 @@
+Lec 1 Notes :- https://takeuforward.org/data-structure/implement-trie-1/
+Problem Link :- https://leetcode.com/problems/implement-trie-prefix-tree/
+
+Lec 2 Notes :- https://takeuforward.org/data-structure/implement-trie-ii/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/implement-trie_1387095
+
+Lec 3 Notes :- 
+Problem Link :- https://www.codingninjas.com/codestudio/problems/complete-string_2687860
+
+Lec 4 Notes :- https://takeuforward.org/data-structure/number-of-distinct-substrings-in-a-string-using-trie/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/count-distinct-substrings_985292
+
+Lec 5 Notes :- 
+
+Lec 6 Notes :- https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/maximum-xor_973113
+
+Lec 7 Notes :- 
+Problem Link :- https://www.codingninjas.com/codestudio/problems/max-xor-queries_1382020
+
+Practice Problem Links
+1. Problem Link :- https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+2. Problem Link :- https://leetcode.com/problems/design-add-and-search-words-data-structure/
