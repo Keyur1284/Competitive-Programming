@@ -228,3 +228,7 @@ Problem Link :- https://leetcode.com/problems/recover-binary-search-tree/
 
 Lec 53 :
 Problem Link :- https://practice.geeksforgeeks.org/problems/largest-bst/1
+
+
+Practice Problem Links :-
+1. Problem Link :- https://leetcode.com/problems/time-needed-to-inform-all-employees/
