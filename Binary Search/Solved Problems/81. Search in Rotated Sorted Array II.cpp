@@ -1,7 +1,8 @@
 // Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 
 // Solved by Binary Search
-// Time Complexity :- O(log_2 n)
+// Worst Case Time Complexity :- O(n)
+// Average Time Complexity : O(log_2 n)
 // Space Complexity :- O(1)
 
 class Solution {
