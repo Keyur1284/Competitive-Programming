@@ -49,3 +49,9 @@ Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 Lec 6 Notes :-  https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/
 Problem Link :- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 Problem Link :- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+
+Lec 7 Notes :-
+Problem Link :- https://practice.geeksforgeeks.org/problems/rotation4723/1
+
+Lec 8 Notes :-  
+Problem Link :- https://leetcode.com/problems/single-element-in-a-sorted-array/
