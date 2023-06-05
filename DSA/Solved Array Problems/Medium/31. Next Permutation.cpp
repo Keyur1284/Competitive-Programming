@@ -1,4 +1,4 @@
-// Problem Link :- https://leetcode.com/problems/next-permutation/description/
+// Problem Link :- https://leetcode.com/problems/next-permutation/
 
 // Time Complexity :- O(n)
 // Space Complexity :- O(1)
