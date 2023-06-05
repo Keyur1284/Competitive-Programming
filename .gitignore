@@ -1,2 +1,4 @@
 Boil.*
 *.cph
+*.vscode
+*boilerplate
