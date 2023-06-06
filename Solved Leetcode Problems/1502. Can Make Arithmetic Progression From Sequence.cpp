@@ -86,7 +86,7 @@ public:
 
         while (i < n)
         {
-            if (arr[i] = mini + i * diff)
+            if (arr[i] == mini + i * diff)
                 i++;
 
             else if ((arr[i] - mini) % diff)
