@@ -1,6 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/
 
-// Time Complexity :- O(1)
+// Time Complexity :- O(log_2 n)
 // Space Complexity :- O(1)
 
 // Solved by using bitset
