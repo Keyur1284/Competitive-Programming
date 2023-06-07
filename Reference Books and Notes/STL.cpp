@@ -349,6 +349,18 @@ __builtin_popcount(num) will return the no. of 1's in the binary representation 
 // for long long int
 __builtin_popcountll(num) will return the no. of 1's in the binary representation of the number ;
 
+To get first set bit from right i.e. LSB we can do
+int bit = (num & ~(num - 1));
+
+To get the value of the least significant bit that is on (first from the right) we can do
+int value = (num & (-num));
+
+To get first set bit from right i.e. LSB we can do
+int bit = 1 + __builtin_ctz(num);		(__builtin_ctz(num) -> count the trailing zeros)
+
+To get first set bit from left i.e. MSB we can do
+int bit = 31 - __builtin_clz(num);		(__builtin_clz(num) -> count the leading zeros)
+
 
 
 ALGORITHMS
