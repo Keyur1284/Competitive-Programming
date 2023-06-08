@@ -8,7 +8,7 @@ public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         
         sort(nums.begin(), nums.end());
-        set<vector<int>> quad;
+        vector<vector<int>> quad;
         int n = nums.size();
         
         for (int i = 0; i < n; i++)
@@ -33,7 +33,7 @@ public:
                     if (sum == target)
                     {
                         vector <int> temp = {nums[i], nums[j], nums[k], nums[l]};
-                        quad.emplace(temp);
+                        quad.emplace_back(temp);
 
                         k++;
                         l--;
@@ -54,8 +54,6 @@ public:
             }
         }
 
-        vector<vector<int>> ans(quad.begin(), quad.end());
-
-        return ans;
+        return quad;
     }
 };
