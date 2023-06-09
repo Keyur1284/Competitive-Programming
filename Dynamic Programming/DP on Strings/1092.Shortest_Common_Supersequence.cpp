@@ -1,4 +1,4 @@
-//Problem Link :- https://www.geeksforgeeks.org/shortest-common-supersequence/
+//Problem Link :- https://leetcode.com/problems/shortest-common-supersequence/
 
 
 //Solved by Tabulation Method

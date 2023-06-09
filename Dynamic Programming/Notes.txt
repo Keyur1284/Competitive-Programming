@@ -110,25 +110,35 @@ Problem Link :- https://www.codingninjas.com/codestudio/problems/rod-cutting-pro
 
 
 Lec 41 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/
+Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
 
 
 Lec 42 Notes : https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/
+Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
 
 
 Lec 43 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/
+Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
 
 
 Lec 44 Notes : https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/
+Problem Link :- https://leetcode.com/problems/largest-divisible-subset/
 
 
 Lec 45 Notes : https://takeuforward.org/data-structure/longest-string-chain-dp-45/
+Problem Link :- https://leetcode.com/problems/longest-string-chain/
 
 
 Lec 46 Notes : https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/longest-bitonic-sequence_1062688
 
 
 Lec 47 Notes : https://takeuforward.org/data-structure/number-of-longest-increasing-subsequences-dp-47/
+Problem Link :- https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 
+Practice Problem Links:
+
+1. Problem Link :- https://leetcode.com/problems/profitable-schemes/
 
 
 
@@ -139,6 +149,7 @@ Problem Link :- https://leetcode.com/problems/longest-common-subsequence/
 
 
 Lec 26 Notes : https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/
+Problem Link :- https://leetcode.com/problems/longest-common-subsequence/
 
 
 Lec 27 Notes : https://takeuforward.org/data-structure/longest-common-substring-dp-27/
@@ -146,24 +157,38 @@ Problem Link :- https://www.codingninjas.com/codestudio/problems/longest-common-
 
 
 Lec 28 Notes : https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/
+Problem Link :- https://leetcode.com/problems/longest-palindromic-subsequence/
 
 
 Lec 29 Notes : https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/
+Problem Link :- https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/minimum-insertions-to-make-palindrome_985293
 
 
 Lec 30 Notes : https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/
+Problem Link :- https://www.codingninjas.com/codestudio/problems/can-you-make_4244510
 
 
 Lec 31 Notes : https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/
+Problem Link :- https://leetcode.com/problems/shortest-common-supersequence/
 
 
 Lec 32 Notes: https://takeuforward.org/data-structure/distinct-subsequences-dp-32/
+Problem Link :-  https://leetcode.com/problems/distinct-subsequences/
 
 
 Lec 33 Notes : https://takeuforward.org/data-structure/edit-distance-dp-33/
+Problem Link :- https://leetcode.com/problems/edit-distance/
 
 
 Lec 34 Notes : https://takeuforward.org/data-structure/wildcard-matching-dp-34/
+Problem Link: https://www.codingninjas.com/codestudio/problems/wildcard-pattern-matching_701650
+
+
+
+Practice Problem Links:
+
+1. Problem Link :- https://leetcode.com/problems/longest-palindromic-substring/
 
 
 
