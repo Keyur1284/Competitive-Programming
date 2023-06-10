@@ -30,7 +30,8 @@ Problem Link :- https://practice.geeksforgeeks.org/problems/ceil-the-floor2802/1
 
 Practice Problem Links :-
 
-Problem Link :- https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
+1. Problem Link :- https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
+2. Problem Link :- https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/
 
 
 Lec 3 Notes :-  https://takeuforward.org/data-structure/1st-occurrence-in-a-sorted-array/
