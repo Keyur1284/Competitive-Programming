@@ -113,12 +113,22 @@ Lec 41 Notes : https://takeuforward.org/data-structure/longest-increasing-subseq
 Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
 
 
+Practice Problem Link :-
+
+1. Problem Link :- https://leetcode.com/problems/maximum-length-of-pair-chain/
+
+
 Lec 42 Notes : https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/
 Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
 
 
 Lec 43 Notes : https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/
 Problem Link :- https://leetcode.com/problems/longest-increasing-subsequence/
+
+
+Practice Problem Link :-
+
+1. Problem Link :- https://leetcode.com/problems/russian-doll-envelopes/
 
 
 Lec 44 Notes : https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/
