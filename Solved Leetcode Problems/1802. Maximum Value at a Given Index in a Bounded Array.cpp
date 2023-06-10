@@ -14,7 +14,7 @@ public:
         int left = index + 1, maxLeft = mid;
 
         if (maxLeft >= left)
-            sum += (1LL * left * (maxLeft - left + 1 + maxLeft))/2;
+            sum += (1LL * left * (maxLeft - left + 1 + maxLeft))/2;     // S_n = n/2 * (a_1 + a_n)
 
         else
             sum += 1LL * maxLeft * (maxLeft + 1)/2 + left - maxLeft;
