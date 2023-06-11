@@ -196,6 +196,7 @@ Problem Link :- https://leetcode.com/problems/edit-distance/
 
 Lec 34 Notes : https://takeuforward.org/data-structure/wildcard-matching-dp-34/
 Problem Link: https://www.codingninjas.com/codestudio/problems/wildcard-pattern-matching_701650
+Problem Link :- https://leetcode.com/problems/wildcard-matching/
 
 
 
