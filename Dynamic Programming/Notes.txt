@@ -150,6 +150,9 @@ Practice Problem Links:
 
 1. Problem Link :- https://leetcode.com/problems/profitable-schemes/
 
+2. Problem Link :- https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/    (Solved using unordered_map)
+
+3. Problem Link :- https://leetcode.com/problems/longest-arithmetic-subsequence/        (Solved using unordered_map)
 
 
 DP on Strings
