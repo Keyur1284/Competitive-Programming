@@ -209,21 +209,27 @@ Practice Problem Links:
 DP on Stocks
 
 Lec 35 Notes : https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/
+Problem Link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 
 Lec 36 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/
+Problem Link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 
 Lec 37 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/
+Problem link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 
 Lec 38 Notes : https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/
+Problem Link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 
 
 Lec 39 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/
+Problem Link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 
 
 Lec 40 Notes : https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/
+Problem Link :- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 
 
 
