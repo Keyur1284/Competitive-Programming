@@ -1,5 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/kth-missing-positive-number/
 
+// Solved using unordered_map
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
 
@@ -29,6 +30,7 @@ public:
 };
 
 
+// Solved by Binary Search
 // Time Complexity :- O(logn)
 // Space Complexity :- O(1)
 
@@ -37,19 +39,22 @@ public:
     int findKthPositive(vector<int>& arr, int k) {
 
         int n = arr.size();
-        int low = 0, high = n - 1, mid;
+        int low = 1, high = n, mid, ans = 0;
 
         while (low <= high)
         {
             mid = (low + high) >> 1;
 
-            if (arr[mid] - (mid + 1) < k)
+            if (arr[mid - 1] - mid < k)
+            {
+                ans = mid;
                 low = mid + 1;
+            }
 
             else
                 high = mid - 1;
         }
         
-        return low + k;
+        return ans + k;
     }
 };
