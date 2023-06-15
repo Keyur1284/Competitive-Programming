@@ -30,6 +30,37 @@ public:
 };
 
 
+
+// Solved using two pointer
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    int findKthPositive(vector<int>& arr, int k) {
+
+        int n = arr.size();
+        int i = 0, missing = 0, count = 0;
+
+        while (i < n && count != k)
+        {
+            if (arr[i] == missing + 1)
+                i++;
+
+            else
+                count++;
+            
+            missing++;
+        }
+
+        if (count != k)
+            missing = k - count + arr[n - 1];
+        
+        return missing;
+    }
+};
+
+
 // Solved by Binary Search
 // Time Complexity :- O(logn)
 // Space Complexity :- O(1)
