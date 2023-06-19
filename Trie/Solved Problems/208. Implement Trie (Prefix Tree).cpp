@@ -12,20 +12,50 @@
 class TrieNode {
 public:
 
-    bool isEnd;
+    bool flag;
     vector<TrieNode*> child;
 
     TrieNode ()
     {
-        isEnd = false;
+        flag = false;
         child.assign(26, NULL);
+    }
+
+    bool containsKey (char k)
+    {
+        int index = k - 'a';
+        return (child[index] != NULL);
+    }
+
+    void put (char k, TrieNode* node)
+    {
+        int index = k - 'a';
+        child[index] = node;
+    }
+
+    TrieNode* get (char k)
+    {
+        int index = k - 'a';
+        return child[index];
+    }
+
+    void setEnd ()
+    {
+        flag = true;
+    }
+
+    bool isEnd()
+    {
+        return flag;
     }
 };
 
 class Trie {
-public:
+private:
 
     TrieNode* root;
+
+public:
 
     Trie() {
         
@@ -38,15 +68,13 @@ public:
 
         for (auto &it : word)
         {
-            int index = it - 'a';
+            if (node->containsKey(it) == NULL)
+                node->put(it, new TrieNode());
 
-            if (node->child[index] == NULL)
-                node->child[index] = new TrieNode();
-
-            node = node->child[index];
+            node = node->get(it);
         }
 
-        node->isEnd = true;
+        node->setEnd();
     }
     
     bool search(string word) {
@@ -55,15 +83,13 @@ public:
 
         for (auto &it : word)
         {
-            int index = it - 'a';
-
-            if (node->child[index] == NULL)
+            if (node->containsKey(it) == NULL)
                 return false;
 
-            node = node->child[index];
+            node = node->get(it);
         }
 
-        return node->isEnd;
+        return node->isEnd();
     }
     
     bool startsWith(string prefix) {
@@ -72,12 +98,10 @@ public:
 
         for (auto &it : prefix)
         {
-            int index = it - 'a';
-
-            if (node->child[index] == NULL)
+            if (node->containsKey(it) == NULL)
                 return false;
 
-            node = node->child[index];
+            node = node->get(it);
         }
 
         return true;
