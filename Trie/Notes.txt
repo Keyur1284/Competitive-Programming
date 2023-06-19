@@ -24,3 +24,4 @@ Practice Problem Links
 3. Problem Link :- https://leetcode.com/problems/equal-row-and-column-pairs/
 4. Problem Link :- https://leetcode.com/problems/word-break/
 5. Problem Link :- https://leetcode.com/problems/word-break-ii/
+6. Problem Link :- https://leetcode.com/problems/longest-common-prefix/
