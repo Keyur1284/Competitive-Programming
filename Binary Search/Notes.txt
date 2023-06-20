@@ -56,3 +56,9 @@ Problem Link :- https://practice.geeksforgeeks.org/problems/rotation4723/1
 
 Lec 8 Notes :-  
 Problem Link :- https://leetcode.com/problems/single-element-in-a-sorted-array/
+
+Lec 9 Notes :- 
+Problem Link :- https://leetcode.com/problems/find-peak-element/
+
+Lec 10 Notes :-
+Problem Link :- https://practice.geeksforgeeks.org/problems/square-root/0
