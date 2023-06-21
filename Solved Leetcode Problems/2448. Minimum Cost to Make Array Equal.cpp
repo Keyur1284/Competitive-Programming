@@ -129,9 +129,6 @@ public:
 
         mincost = min(mincost, currCost);
 
-        for (auto it : prefCost)
-            cout << it << " ";
-
         for (int i = 1; i < n; i++)
         {
             int gap = vec[i].first - vec[i - 1].first;
