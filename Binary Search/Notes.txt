@@ -62,3 +62,9 @@ Problem Link :- https://leetcode.com/problems/find-peak-element/
 
 Lec 10 Notes :-
 Problem Link :- https://practice.geeksforgeeks.org/problems/square-root/0
+
+Lec 11 Notes :-
+Problem Link :- https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
+
+Lec 12 Notes :-
+Problem Link :- Problem Link :- https://leetcode.com/problems/koko-eating-bananas/
