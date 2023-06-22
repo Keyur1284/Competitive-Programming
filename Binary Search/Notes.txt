@@ -1,3 +1,6 @@
+Binary Search on 1D Arrays
+
+
 Lec 1 Notes :-  https://takeuforward.org/data-structure/binary-search-explained/
 Problem Link :- https://leetcode.com/problems/binary-search/
 
@@ -60,6 +63,12 @@ Problem Link :- https://leetcode.com/problems/single-element-in-a-sorted-array/
 Lec 9 Notes :- 
 Problem Link :- https://leetcode.com/problems/find-peak-element/
 
+
+
+Binary Search on Answers
+
+
+
 Lec 10 Notes :-
 Problem Link :- https://practice.geeksforgeeks.org/problems/square-root/0
 
@@ -67,4 +76,10 @@ Lec 11 Notes :-
 Problem Link :- https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
 
 Lec 12 Notes :-
-Problem Link :- Problem Link :- https://leetcode.com/problems/koko-eating-bananas/
+Problem Link :- https://leetcode.com/problems/koko-eating-bananas/
+
+Lec 13 Notes :-
+Problem Link :- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+
+Lec 14 Notes :-
+Problem Link :- https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
