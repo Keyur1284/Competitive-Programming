@@ -221,6 +221,7 @@ Problem Link : https://leetcode.com/problems/critical-connections-in-a-network/
 
 Lec 56 Notes : https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/
 Problem Link : https://practice.geeksforgeeks.org/problems/articulation-point-1/1
+Practice Problem Link :- https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/
 
 
 Practice Questions :- 
