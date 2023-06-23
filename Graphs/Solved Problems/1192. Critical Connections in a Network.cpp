@@ -29,7 +29,7 @@ public:
             }
 
             else
-                lowestTime[node] = min(lowestTime[node], insertTime[it]);
+                lowestTime[node] = min(lowestTime[node], lowestTime[it]);
         }
     }
 

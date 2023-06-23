@@ -23,7 +23,7 @@ void DFS(int node, int parent, vector <int> adj[], vector <int> &vis, int &timer
         }
 
         else
-            lowest[node] = min(lowest[node], time_ins[it]);
+            lowest[node] = min(lowest[node], lowest[it]);
     }
 }
 
