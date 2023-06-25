@@ -83,3 +83,9 @@ Problem Link :- https://leetcode.com/problems/minimum-number-of-days-to-make-m-b
 
 Lec 14 Notes :-
 Problem Link :- https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+
+Lec 15 Notes :-
+Problem Link :- https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+
+Lec 16 Notes :-
+Problem Link :- https://leetcode.com/problems/kth-missing-positive-number/
