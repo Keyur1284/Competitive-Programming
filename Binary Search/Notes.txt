@@ -89,3 +89,9 @@ Problem Link :- https://leetcode.com/problems/capacity-to-ship-packages-within-d
 
 Lec 16 Notes :-
 Problem Link :- https://leetcode.com/problems/kth-missing-positive-number/
+
+Lec 17 Notes :-
+Problem Link :- https://practice.geeksforgeeks.org/problems/aggressive-cows/0
+
+Lec 18 Notes :-
+Problem Link :- https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
