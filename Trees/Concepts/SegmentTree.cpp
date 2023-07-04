@@ -50,7 +50,7 @@ public:
     
     // Time Complexity :- O(logn)
     
-    void update (ll pos, ll val, ll index, ll low, ll high, vector<ll> &arr)
+    void update (ll pos, ll val, ll index, ll low, ll high)
     {
         if (low == high)
         {
@@ -61,10 +61,10 @@ public:
         ll mid = (low + high) >> 1;
         
         if (pos <= mid)
-            update (pos, val, 2 * index + 1, low, mid, arr);
+            update (pos, val, 2 * index + 1, low, mid);
             
         else
-            update (pos, val, 2 * index + 2, mid + 1, high, arr);
+            update (pos, val, 2 * index + 2, mid + 1, high);
             
         seg[index] = min(seg[2 * index + 1], seg[2 * index + 2]);
     }
@@ -96,7 +96,7 @@ int main()
     
     cout << q << endl;
     
-    obj.update (2, -5, 0, 0, n - 1, arr);
+    obj.update (2, -5, 0, 0, n - 1);
     
     q = obj.query(0, 0, 2, 0, n - 1);
     
