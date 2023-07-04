@@ -33,7 +33,7 @@ public:
     
     // Time Complexity :- O(logn)
     
-    ll query (ll index, ll left, ll right, ll low, ll high, vector<ll> &arr)
+    ll query (ll index, ll left, ll right, ll low, ll high)
     {
         if (right < low || left > high)
             return INT_MAX;
@@ -42,8 +42,8 @@ public:
             return seg[index];
             
         ll mid = (low + high) >> 1;
-        ll l = query (2 * index + 1, left, right, low, mid, arr);
-        ll r = query (2 * index + 2, left, right, mid + 1, high, arr);
+        ll l = query (2 * index + 1, left, right, low, mid);
+        ll r = query (2 * index + 2, left, right, mid + 1, high);
         
         return min(l, r);
     }
@@ -92,13 +92,13 @@ int main()
         
     cout << endl;
         
-    ll q = obj.query(0, 0, 2, 0, n - 1, arr);
+    ll q = obj.query(0, 0, 2, 0, n - 1);
     
     cout << q << endl;
     
     obj.update (2, -5, 0, 0, n - 1, arr);
     
-    q = obj.query(0, 0, 2, 0, n - 1, arr);
+    q = obj.query(0, 0, 2, 0, n - 1);
     
     cout << q << endl;
         
