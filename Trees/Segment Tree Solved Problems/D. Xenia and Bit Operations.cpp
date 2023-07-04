@@ -79,7 +79,7 @@ public:
             seg[index] = seg[2 * index + 1] ^ seg[2 * index + 2];
     }
     
-    void update (ll pos, ll val, ll index, ll low, ll high, vector<ll> &arr, bool isOr)
+    void update (ll pos, ll val, ll index, ll low, ll high, bool isOr)
     {
         if (low == high)
         {
@@ -90,10 +90,10 @@ public:
         ll mid = (low + high) >> 1;
         
         if (pos <= mid)
-            update (pos, val, 2 * index + 1, low, mid, arr, !isOr);
+            update (pos, val, 2 * index + 1, low, mid, !isOr);
             
         else
-            update (pos, val, 2 * index + 2, mid + 1, high, arr, !isOr);
+            update (pos, val, 2 * index + 2, mid + 1, high, !isOr);
 
         if (isOr)    
             seg[index] = seg[2 * index + 1] | seg[2 * index + 2];
@@ -127,7 +127,7 @@ void solve()
         cin >> pos >> val;
         pos--;
 
-        st.update(pos, val, 0, 0, size - 1, arr, isOr);
+        st.update(pos, val, 0, 0, size - 1, isOr);
 
         cout << st.seg[0] << endl;
     }
