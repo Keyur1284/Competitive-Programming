@@ -104,7 +104,7 @@ class Trie {
 
 int countDistinctSubstrings(string &s)
 {
-    Trie *obj = new Trie();
+    Trie obj;
     count = 1;
 
     int len = s.length();
@@ -112,7 +112,7 @@ int countDistinctSubstrings(string &s)
     for (int i = 0; i < len; i++)
     {
         string word = s.substr(i);
-        obj->insert(word);
+        obj.insert(word);
     }
 
     return count;
