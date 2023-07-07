@@ -16,6 +16,21 @@ class TrieNode {
     {
         child.assign(2, NULL);
     }
+
+    bool containsKey (int num)
+    {
+        return (child[num] != NULL);
+    }
+
+    void put (int num, TrieNode* node)
+    {
+        child[num] = node;
+    }
+
+    TrieNode* get (int num)
+    {
+        return child[num];
+    }
 };
 
 class Trie {
@@ -37,10 +52,10 @@ class Trie {
         {
             int bit = ((num >> pos) & 1);
 
-            if (node->child[bit] == NULL)
-                node->child[bit] = new TrieNode();
+            if (node->containsKey(bit) == NULL)
+                node->put(bit, new TrieNode());
 
-            node = node->child[bit];
+            node = node->get(bit);
         }
     }
 
@@ -53,14 +68,14 @@ class Trie {
         {
             int bit = ((num >> pos) & 1);
 
-            if (node->child[1 ^ bit])
+            if (node->containsKey(1 ^ bit))
             {
                 maxi |= (1 << pos);
-                node = node->child[1 ^ bit];
+                node = node->get(1 ^ bit);
             }
 
             else
-                node = node->child[bit];
+                node = node->get(bit);
         }
 
         return maxi;
@@ -71,18 +86,18 @@ class Solution {
 public:
     int findMaximumXOR(vector<int>& nums) {
         
-        Trie* obj = new Trie();
+        Trie obj;
 
         for (auto &it : nums)
         {
-            obj->insert(it);
+            obj.insert(it);
         }  
 
         int ans = 0;
 
         for (auto &it : nums)
         {
-            int res = obj->findMaxXor(it);
+            int res = obj.findMaxXor(it);
             ans = max(ans, res);
         }
 
@@ -103,6 +118,21 @@ class TrieNode {
     {
         child.assign(2, NULL);
     }
+
+    bool containsKey (int num)
+    {
+        return (child[num] != NULL);
+    }
+
+    void put (int num, TrieNode* node)
+    {
+        child[num] = node;
+    }
+
+    TrieNode* get (int num)
+    {
+        return child[num];
+    }
 };
 
 class Trie {
@@ -119,33 +149,37 @@ class Trie {
     void insert (int num)
     {
         TrieNode* node = root;
-        bitset<32> bit(num);
+        bitset<32> bs(num);
 
         for (int pos = 31; pos >= 0; pos--)
         {
-            if (node->child[bit[pos]] == NULL)
-                node->child[bit[pos]] = new TrieNode();
+            int val = bs[pos];
 
-            node = node->child[bit[pos]];
+            if (node->containsKey(val) == NULL)
+                node->put(val, new TrieNode());
+
+            node = node->get(val);
         }
     }
 
     int findMaxXor (int num)
     {
+        TrieNode* node = root;
         int maxi = 0;
-        TrieNode *node = root;
-        bitset<32> bit(num);
+        bitset<32> bs(num);
 
         for (int pos = 31; pos >= 0; pos--)
         {
-            if (node->child[1 ^ bit[pos]])
+            int bit = bs[pos];
+
+            if (node->containsKey(1 ^ bit))
             {
                 maxi |= (1 << pos);
-                node = node->child[1 ^ bit[pos]];
+                node = node->get(1 ^ bit);
             }
 
             else
-                node = node->child[bit[pos]];
+                node = node->get(bit);
         }
 
         return maxi;
@@ -156,18 +190,18 @@ class Solution {
 public:
     int findMaximumXOR(vector<int>& nums) {
         
-        Trie* obj = new Trie();
+        Trie obj;
 
         for (auto &it : nums)
         {
-            obj->insert(it);
+            obj.insert(it);
         }  
 
         int ans = 0;
 
         for (auto &it : nums)
         {
-            int res = obj->findMaxXor(it);
+            int res = obj.findMaxXor(it);
             ans = max(ans, res);
         }
 
