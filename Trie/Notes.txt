@@ -16,7 +16,7 @@ Lec 6 Notes :- https://takeuforward.org/data-structure/maximum-xor-of-two-number
 Problem Link :- https://www.codingninjas.com/codestudio/problems/maximum-xor_973113
 
 Lec 7 Notes :- 
-Problem Link :- https://www.codingninjas.com/codestudio/problems/max-xor-queries_1382020
+Problem Link :- https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
 
 Practice Problem Links
 1. Problem Link :- https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
