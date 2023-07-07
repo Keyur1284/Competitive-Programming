@@ -23,6 +23,34 @@ class TrieNode {
         countPrefix = 0;
         child.assign (26, NULL);
     }
+
+    bool containsKey (char k)
+    {
+        int index = k - 'a';
+        return (child[index] != NULL);
+    } 
+
+    void put (char k, TrieNode* node)
+    {
+        int index = k - 'a';
+        child[index] = node;
+    }
+
+    TrieNode* get (char k)
+    {
+        int index = k - 'a';
+        return child[index];
+    }
+
+    void changePrefixCount (bool increase)
+    {
+        (increase) ? countPrefix++ : countPrefix--;
+    }
+
+    void changeWordsCount (bool increase)
+    {
+        (increase) ? countWords++ : countWords--;
+    }
 };
 
 class Trie{
@@ -42,16 +70,14 @@ class Trie{
 
         for (auto &it : word)
         {
-            int index = it - 'a';
+            if (node->containsKey(it) == NULL)
+                node->put(it, new TrieNode());
 
-            if (node->child[index] == NULL)
-                node->child[index] = new TrieNode();
-
-            node = node->child[index];
-            node->countPrefix++;
+            node = node->get(it);
+            node->changePrefixCount(true);
         }
 
-        node->countWords++;
+        node->changeWordsCount(true);
     }
 
     int countWordsEqualTo(string &word){
@@ -60,12 +86,10 @@ class Trie{
 
         for (auto &it : word)
         {
-            int index = it - 'a';
-
-            if (node->child[index] == NULL)
+            if (node->containsKey(it) == NULL)
                 return 0;
 
-            node = node->child[index];
+            node = node->get(it);
         }
 
         return node->countWords;
@@ -77,12 +101,10 @@ class Trie{
 
         for (auto &it : word)
         {
-            int index = it - 'a';
-
-            if (node->child[index] == NULL)
+            if (node->containsKey(it) == NULL)
                 return 0;
 
-            node = node->child[index];
+            node = node->get(it);
         }
 
         return node->countPrefix;
@@ -94,12 +116,18 @@ class Trie{
 
         for (auto &it : word)
         {
-            int index = it - 'a';
+            TrieNode* parent = node;
+            node = node->get(it);
+            node->changePrefixCount(false);
 
-            node = node->child[index];
-            node->countPrefix--;
+            if (node->countPrefix == 0)
+            {                
+                TrieNode* del = parent->get(it);
+                del = NULL;
+            }
         }
 
-        node->countWords--;
+        node->changeWordsCount(false);
     }
 };
+
