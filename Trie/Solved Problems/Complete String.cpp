@@ -19,58 +19,93 @@ class TrieNode {
         countWords = 0;
         child.assign (26, NULL);
     }
+
+    bool containsKey (char k)
+    {
+        int index = k - 'a';
+        return (child[index] != NULL);
+    }
+
+    void put (char k, TrieNode* node)
+    {
+        int index = k - 'a';
+        child[index] = node;
+    }
+
+    TrieNode* get (char k)
+    {
+        int index = k - 'a';
+        return child[index];
+    }
+
+    void increaseWordsCount ()
+    {
+        countWords++;
+    }
+
+    int getWordsCount()
+    {
+        return countWords;
+    }
 };
 
-TrieNode* root;
+class Trie {
 
-void insert(string &word){
-        
-    TrieNode* node = root;
+    TrieNode* root;
 
-    for (auto &it : word)
+public:
+
+    Trie ()
     {
-        int index = it - 'a';
-
-        if (node->child[index] == NULL)
-            node->child[index] = new TrieNode();
-
-        node = node->child[index];
+        root = new TrieNode();
     }
 
-    node->countWords++;
-}
-
-bool search (string &word)
-{
-    TrieNode* node = root;
-
-    for (auto &it : word)
+    void insert(string &word)
     {
-        int index = it - 'a';
+        TrieNode* node = root;
 
-        node = node->child[index];
+        for (auto &it : word)
+        {
+            if (node->containsKey(it) == NULL)
+                node->put(it, new TrieNode());
 
-        if (node->countWords == 0)
-            return false;
+            node = node->get(it);
+        }
+
+        node->increaseWordsCount();
     }
 
-    return true;
-}
+    bool search (string &word)
+    {
+        TrieNode* node = root;
+
+        for (auto &it : word)
+        {
+            node = node->get(it);
+            
+            if (node->getWordsCount() == 0)
+                return false;
+        }
+
+        return true;
+    }
+};
+
 
 string completeString(int n, vector<string> &a){
     
-    root = new TrieNode();
+    Trie obj;    
 
     for (auto &str : a)
     {
-        insert(str);
+        obj.insert(str);
     }
 
     string ans = "";
 
     for (auto &str : a)
     {
-        if (search(str))
+        if (obj.search(str))
         {
             if (ans.length() < str.length())
                 ans = str;
@@ -93,66 +128,101 @@ class TrieNode {
 
     public:
 
-    bool isEnd;
+    bool flag;
     vector<TrieNode*> child;
 
     TrieNode ()
     {
-        isEnd = false;
+        flag = false;
         child.assign (26, NULL);
+    }
+
+    bool containsKey (char k)
+    {
+        int index = k - 'a';
+        return (child[index] != NULL);
+    }
+
+    void put (char k, TrieNode* node)
+    {
+        int index = k - 'a';
+        child[index] = node;
+    }
+
+    TrieNode* get (char k)
+    {
+        int index = k - 'a';
+        return child[index];
+    }
+
+    void setEnd ()
+    {
+        flag = true;
+    }
+
+    bool isEnd()
+    {
+        return flag;
     }
 };
 
-TrieNode* root;
+class Trie {
 
-void insert(string &word){
+    TrieNode* root;
+
+public:
+
+    Trie ()
+    {
+        root = new TrieNode();
+    }
+
+    void insert(string &word)
+    {
         
-    TrieNode* node = root;
+        TrieNode* node = root;
 
-    for (auto &it : word)
-    {
-        int index = it - 'a';
+        for (auto &it : word)
+        {
+            if (node->containsKey(it) == NULL)
+                node->put(it, new TrieNode());
 
-        if (node->child[index] == NULL)
-            node->child[index] = new TrieNode();
+            node = node->get(it);
+        }
 
-        node = node->child[index];
+        node->setEnd();
     }
 
-    node->isEnd = true;
-}
-
-bool search (string &word)
-{
-    TrieNode* node = root;
-
-    for (auto &it : word)
+    bool search (string &word)
     {
-        int index = it - 'a';
+        TrieNode* node = root;
 
-        node = node->child[index];
+        for (auto &it : word)
+        {
+            node = node->get(it);
+            
+            if (node->isEnd() == false)
+                return false;
+        }
 
-        if (node->isEnd == false)
-            return false;
+        return true;
     }
-
-    return true;
-}
+};
 
 string completeString(int n, vector<string> &a){
-    
-    root = new TrieNode();
+
+    Trie obj;    
 
     for (auto &str : a)
     {
-        insert(str);
+        obj.insert(str);
     }
 
     string ans = "";
 
     for (auto &str : a)
     {
-        if (search(str))
+        if (obj.search(str))
         {
             if (ans.length() < str.length())
                 ans = str;
