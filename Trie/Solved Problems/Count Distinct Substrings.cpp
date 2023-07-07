@@ -66,6 +66,24 @@ class TrieNode {
     {
         child.assign(26, NULL);
     }
+
+    bool containsKey (char k)
+    {
+        int index = k - 'a';
+        return (child[index] != NULL);
+    }
+
+    void put (char k, TrieNode* node)
+    {
+        int index = k - 'a';
+        child[index] = node;
+    }
+
+    TrieNode* get (char k)
+    {
+        int index = k - 'a';
+        return child[index];
+    }
 };
 
 int count;
@@ -87,15 +105,13 @@ class Trie {
 
         for (auto &it : word)
         {
-            int index = it - 'a';
-
-            if (node->child[index] == NULL)
+            if (node->containsKey(it) == NULL)
             {
-                node->child[index] = new TrieNode();
+                node->put(it, new TrieNode());
                 count++;
             }
 
-            node = node->child[index];
+            node = node->get(it);
         }
     }
 
