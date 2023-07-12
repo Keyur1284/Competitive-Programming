@@ -136,21 +136,6 @@ public:
 
     int dx[4] = {1, -1, 0, 0}, dy[4] = {0, 0, 1, -1};
 
-    void DFS (int x, int y, int m, int n, int &area, vector<vector<bool>> &vis, vector<vector<int>>& grid)
-    {
-        vis[x][y] = true;
-        area++;
-
-        for (int i = 0; i < 4; i++)
-        {
-            int newx = x + dx[i];
-            int newy = y + dy[i];
-            
-            if (newx >= 0 && newx < m && newy >= 0 && newy < n && grid[newx][newy] && !vis[newx][newy])
-                DFS (newx, newy, m, n, area, vis, grid);
-        }
-    }
-
     int maxAreaOfIsland(vector<vector<int>>& grid) {
         
         int m = grid.size();
