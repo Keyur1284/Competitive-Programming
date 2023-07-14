@@ -47,20 +47,20 @@ Problem Link :- https://leetcode.com/problems/find-peak-element/
 Lec 4 Notes :-  https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/
 Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array/
 
-Lec 5 Notes :-
+Lec 5 Notes :-  https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/
 Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 
 Lec 6 Notes :-  https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/
 Problem Link :- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 Problem Link :- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
-Lec 7 Notes :-
+Lec 7 Notes :-  https://takeuforward.org/arrays/find-out-how-many-times-the-array-has-been-rotated/
 Problem Link :- https://practice.geeksforgeeks.org/problems/rotation4723/1
 
-Lec 8 Notes :-  
+Lec 8 Notes :-  https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/
 Problem Link :- https://leetcode.com/problems/single-element-in-a-sorted-array/
 
-Lec 9 Notes :- 
+Lec 9 Notes :-  https://takeuforward.org/data-structure/peak-element-in-array/
 Problem Link :- https://leetcode.com/problems/find-peak-element/
 
 
@@ -69,29 +69,32 @@ Binary Search on Answers
 
 
 
-Lec 10 Notes :-
+Lec 10 Notes :- https://takeuforward.org/binary-search/finding-sqrt-of-a-number-using-binary-search/
 Problem Link :- https://practice.geeksforgeeks.org/problems/square-root/0
 
-Lec 11 Notes :-
+Lec 11 Notes :- https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/
 Problem Link :- https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
 
-Lec 12 Notes :-
+Lec 12 Notes :- https://takeuforward.org/binary-search/koko-eating-bananas/
 Problem Link :- https://leetcode.com/problems/koko-eating-bananas/
 
-Lec 13 Notes :-
+Lec 13 Notes :- https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/
 Problem Link :- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
-Lec 14 Notes :-
+Lec 14 Notes :- https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold/
 Problem Link :- https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 
-Lec 15 Notes :-
+Lec 15 Notes :- https://takeuforward.org/arrays/capacity-to-ship-packages-within-d-days/
 Problem Link :- https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 
-Lec 16 Notes :-
+Lec 16 Notes :- https://takeuforward.org/arrays/kth-missing-positive-number/
 Problem Link :- https://leetcode.com/problems/kth-missing-positive-number/
 
-Lec 17 Notes :-
+Lec 17 Notes :- https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/
 Problem Link :- https://practice.geeksforgeeks.org/problems/aggressive-cows/0
 
-Lec 18 Notes :-
+Lec 18 Notes :- https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/
 Problem Link :- https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+
+Lec 19 Notes :- https://takeuforward.org/arrays/split-array-largest-sum/
+Problem Link :- https://leetcode.com/problems/split-array-largest-sum/
