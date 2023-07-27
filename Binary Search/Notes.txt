@@ -98,3 +98,5 @@ Problem Link :- https://practice.geeksforgeeks.org/problems/allocate-minimum-num
 
 Lec 19 Notes :- https://takeuforward.org/arrays/split-array-largest-sum/
 Problem Link :- https://leetcode.com/problems/split-array-largest-sum/
+
+Practice Problem :- https://leetcode.com/problems/maximum-running-time-of-n-computers/
