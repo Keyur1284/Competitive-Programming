@@ -100,3 +100,21 @@ Lec 19 Notes :- https://takeuforward.org/arrays/split-array-largest-sum/
 Problem Link :- https://leetcode.com/problems/split-array-largest-sum/
 
 Practice Problem :- https://leetcode.com/problems/maximum-running-time-of-n-computers/
+
+Lec 20 Notes :- https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations/
+Problem Link :- https://practice.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1
+
+Lec 21 Notes :- https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/
+Problem Link :- https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+Lec 22 Notes :- https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/
+Problem Link :- https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
+
+Lec 23 Notes :- 
+Problem Link :- https://www.codingninjas.com/studio/problems/row-with-maximum-1-s_1112656
+
+Lec 24 Notes :- https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/
+Problem Link :- https://leetcode.com/problems/search-a-2d-matrix/
+
+Lec 25 Notes :- 
+Problem Link :- https://leetcode.com/problems/search-a-2d-matrix-ii/
