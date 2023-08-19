@@ -148,7 +148,7 @@ public:
             size[v] += size[u];
         }
 
-        else if (rank[u] >= rank[v])
+        else
         {
             parent[v] = u;
             size[u] += size[v];
