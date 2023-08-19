@@ -227,3 +227,5 @@ Practice Problem Link :- https://leetcode.com/problems/minimum-number-of-days-to
 Practice Questions :- 
 
 1. https://practice.geeksforgeeks.org/problems/word-search/1
+2. https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/
+(Kruskal's Algorithm + Union Find Miscelleneous Problem)
