@@ -118,3 +118,6 @@ Problem Link :- https://leetcode.com/problems/search-a-2d-matrix/
 
 Lec 25 Notes :- 
 Problem Link :- https://leetcode.com/problems/search-a-2d-matrix-ii/
+
+Lec 26 Notes :-
+Problem Link :- https://leetcode.com/problems/find-a-peak-element-ii/
