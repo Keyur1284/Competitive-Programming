@@ -121,3 +121,6 @@ Problem Link :- https://leetcode.com/problems/search-a-2d-matrix-ii/
 
 Lec 26 Notes :-
 Problem Link :- https://leetcode.com/problems/find-a-peak-element-ii/
+
+Lec 27 Notes :- https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/
+Problem Link :- https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
