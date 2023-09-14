@@ -18,6 +18,16 @@ public:
             else
                 return 0;
         }
+
+        /*
+            OR
+
+            if (index < 0)
+            {
+                return (target == 0);
+            }
+        */
+        
         
         if (dp[index][target] != -1)
             return dp[index][target];
