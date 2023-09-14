@@ -84,6 +84,12 @@ public:
         for (int i = 0; i <= n; i++)
             dp[i][0] = 1;
 
+        /*
+            OR 
+
+            dp[0][0] = 1
+        */
+
         for (int index = 1; index <= n; index++)
         {
             for (int j = 0; j <= k; j++)
