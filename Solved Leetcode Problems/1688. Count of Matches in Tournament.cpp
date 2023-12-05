@@ -33,11 +33,7 @@ public:
         if (n == 1)
             return 0;
         
-        if (n & 1)
-            return n/2 + numberOfMatches(n/2 + 1);
-
-        else
-            return n/2 + numberOfMatches(n/2);
+        return n/2 + numberOfMatches(n/2 + (n & 1));
     }
 };
 
