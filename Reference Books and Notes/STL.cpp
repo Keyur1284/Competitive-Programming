@@ -471,6 +471,26 @@ struct comp {
     }
 };
 
+
+
+Boolean Operator Overloading
+
+It should be a member function of the class.
+For example, if we want to sort a vector of pairs by their second element, we can do this:
+
+bool operator < (const pair<int, int> &a, const pair<int, int> &b) {
+    return a.second < b.second;
+}
+
+Generally, we can overload the <, >, <=, >=, ==, != operators for a class.
+For example, if we have a class Node, we can overload the < operator as follows:
+
+bool operator < (const Node &node) const {
+    return this->val < node.val;
+}
+
+
+
 Lambda Function 
 
 all_of (vec.begin(), vec.end(), [](int x, ..parameters) {write condition return x > 0 ;})  // Will return true only if all the elements satisfy the condition
