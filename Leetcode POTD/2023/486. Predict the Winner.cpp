@@ -82,7 +82,7 @@ public:
     bool predictTheWinner(vector<int>& nums) {
         
         int n = nums.size();
-        vector<vector<int>> dp(n, vector<int> (n + 1, 0));
+        vector<vector<int>> dp(n, vector<int> (n));
 
         for (int i = 0; i < n; i++)
             dp[i][i] = nums[i];
@@ -98,4 +98,60 @@ public:
 
         return (dp[0][n - 1] >= 0);
     }
+};
+
+
+
+// Solved by Tabulation Method (Space Optimized) (Using 2 rows)
+// Time Complexity :- O(n^2)
+// Space Complexity :- O(n)
+
+class Solution {
+public:
+    bool predictTheWinner(vector<int>& nums) {
+        
+        int n = nums.size();
+        vector<int> dp = nums;
+
+        for (int diff = 1; diff < n; diff++)
+        {
+            vector<int> diag(n - diff);
+
+            for (int left = 0; left < n - diff; left++)
+            {
+                int right = left + diff;
+                diag[left] = max(nums[left] - dp[left + 1], nums[right] - dp[left]);
+            }
+
+            dp = diag;
+        }
+
+        return (dp[0] >= 0);
+    }   
+};
+
+
+
+// Solved by Tabulation Method (Space Optimized) (Using 1 row)
+// Time Complexity :- O(n^2)
+// Space Complexity :- O(n)
+
+class Solution {
+public:
+    bool predictTheWinner(vector<int>& nums) {
+        
+        int n = nums.size();
+        vector<int> dp = nums;
+
+        for (int diff = 1; diff < n; diff++)
+        {
+            for (int left = 0; left < n - diff; left++)
+            {
+                int right = left + diff;
+                dp[left] = max(nums[left] - dp[left + 1], nums[right] - dp[left]);
+            }
+        }
+
+        return (dp[0] >= 0);
+    }   
 };
