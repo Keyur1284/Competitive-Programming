@@ -74,3 +74,39 @@ public:
         return maxDiff;
     }
 };
+
+
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+
+    int DFS (TreeNode* node, int mini, int maxi)
+    {
+        if (node == NULL)
+            return maxi - mini;
+
+        mini = min(mini, node->val);
+        maxi = max(maxi, node->val);
+
+        int leftDiff = DFS(node->left, mini, maxi);
+        int rightDiff = DFS(node->right, mini, maxi);
+
+        return max(leftDiff, rightDiff);
+    }
+
+    int maxAncestorDiff(TreeNode* root) {
+        
+        return DFS(root, root->val, root->val);
+    }
+};
