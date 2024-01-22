@@ -42,8 +42,6 @@ Lec 3 Notes :-  https://takeuforward.org/data-structure/1st-occurrence-in-a-sort
 Problem Link :- https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 Problem Link :- https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1
 
-Problem Link :- https://leetcode.com/problems/find-peak-element/
-
 Lec 4 Notes :-  https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/
 Problem Link :- https://leetcode.com/problems/search-in-rotated-sorted-array/
 
