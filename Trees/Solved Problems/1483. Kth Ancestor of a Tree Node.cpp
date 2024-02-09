@@ -59,6 +59,11 @@ public:
                     k -= (1 << level);
                 }
 
+                // Or we can keep the if condition same as above
+
+                // if (k & (1 << level))
+                //     node = dp[node][level];
+
                 if (node == -1)
                     break;
             }
