@@ -52,6 +52,58 @@ public:
         
         int n = arr.size();
         vector<int> left(n), right(n);
+        stack<pair<int, int>> st;
+
+        for (int i = 0; i < n; i++)
+        {
+            int count = 1;
+
+            while (!st.empty() && st.top().first > arr[i])
+            {
+                count += st.top().second;
+                st.pop();
+            }
+
+            st.emplace(arr[i], count);
+            left[i] = count;
+        }
+
+        while (!st.empty())
+            st.pop();
+
+        for (int i = n - 1; i >= 0; i--)
+        {
+            int count = 1;
+
+            while (!st.empty() && st.top().first >= arr[i])
+            {
+                count += st.top().second;
+                st.pop();
+            }
+
+            st.emplace(arr[i], count);
+            right[i] = count;
+        }
+
+        long long ans = 0, MOD = 1e9 + 7;
+
+        for (int i = 0; i < n; i++)
+        {
+            ans = (ans + 1LL * arr[i] * left[i] * right[i]) % MOD;
+        }
+
+        return ans;
+    }
+};
+
+
+
+class Solution {
+public:
+    int sumSubarrayMins(vector<int>& arr) {
+        
+        int n = arr.size();
+        vector<int> left(n), right(n);
         stack<int> ple, nle;
 
         for (int i = 0; i < n; i++)
