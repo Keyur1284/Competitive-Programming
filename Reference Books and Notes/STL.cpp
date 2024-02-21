@@ -361,6 +361,8 @@ int bit = 1 + __builtin_ctz(num);		(__builtin_ctz(num) -> count the trailing zer
 To get first set bit from left i.e. MSB we can do
 int bit = 31 - __builtin_clz(num);		(__builtin_clz(num) -> count the leading zeros)
 
+To remove the last set bit from the number we can do
+num = num & (num - 1);
 
 
 ALGORITHMS
