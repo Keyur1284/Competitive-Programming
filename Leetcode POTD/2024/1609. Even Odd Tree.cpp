@@ -79,6 +79,54 @@ public:
 
 
 
+class Solution {
+public:
+    bool isEvenOddTree(TreeNode* root) {
+        
+        queue<TreeNode*> BFS;
+        BFS.emplace(root);
+        int level = 0;
+
+        while (!BFS.empty())
+        {
+            int size = BFS.size();
+            int prev = -1;
+
+            while (size--)
+            {
+                auto node = BFS.front();
+                BFS.pop();
+
+                if (node->val % 2 == level % 2)
+                    return false;
+
+                if (prev != -1)
+                {
+                    if (level % 2 == 0 && node->val <= prev)
+                        return false;
+
+                    if (level % 2 == 1 && node->val >= prev)
+                        return false;
+                }
+
+                prev = node->val;
+
+                if (node->left)
+                    BFS.emplace(node->left);
+
+                if (node->right)
+                    BFS.emplace(node->right);
+            }
+
+            level++;
+        }
+
+        return true;
+    }
+};
+
+
+
 // Solved by DFS
 // Time Complexity :- O(n)
 // Space Complexity :- O(n)
