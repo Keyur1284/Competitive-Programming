@@ -6,6 +6,8 @@ freopen("output.txt", "w", stdout);
 #pragma GCC optimize("O3")
 #pragma GCC optimize("unroll-loops")
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp> 
+#include <ext/pb_ds/tree_policy.hpp> 
 #define ll long long int
 #define ld long double
 const ll MOD = 1e9 + 7;
@@ -24,7 +26,6 @@ const ll MOD2 = 998244353;
 #define vl vector <ll>
 #define vvl vector <vector<ll>>    
 #define vvvl vector <vector<vector<ll>>>  
-#define minpq priority_queue <ll, vector<ll>, greater<ll>>
 #define endl '\n'
 #define nl cout << '\n' 
 #define pb push_back
@@ -48,6 +49,11 @@ const ll MOD2 = 998244353;
 #define RFOR(i, a, b) for (ll i = a; i >= b; i--)
 #define trav(it, a) for (auto &it : a)
 using namespace std;
+using namespace __gnu_pbds; 
+template <class T> using minpq = priority_queue<T, vector<T>, greater<T>>;
+template <class T> using ordered_set = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
+// order_of_key (k) : Number of items strictly smaller than k
+// find_by_order(k) : K-th element in a set (counting from 0)
 
 class DSU 
 {
