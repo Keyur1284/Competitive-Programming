@@ -26,3 +26,34 @@ public:
         return count;
     }
 };
+
+
+
+// Solved using unordered_map (in one pass)
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
+
+class Solution {
+public:
+    int maxFrequencyElements(vector<int>& nums) {
+        
+        unordered_map<int, int> freq;
+        int maxFreq = 0, totalFreq = 0;
+
+        for (auto &it : nums)
+        {
+            freq[it]++;
+
+            if (freq[it] > maxFreq)
+            {
+                maxFreq = freq[it];
+                totalFreq = maxFreq;
+            }
+
+            else if (freq[it] == maxFreq)
+                totalFreq += maxFreq;
+        }
+
+        return totalFreq;
+    }
+};
