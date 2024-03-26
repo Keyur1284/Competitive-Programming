@@ -26,3 +26,4 @@ Practice Problem Links
 5. Problem Link :- https://leetcode.com/problems/word-break-ii/
 6. Problem Link :- https://leetcode.com/problems/longest-common-prefix/
 7. Problem Link :- https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/
+8. Problem Link :- https://leetcode.com/problems/longest-common-suffix-queries/
