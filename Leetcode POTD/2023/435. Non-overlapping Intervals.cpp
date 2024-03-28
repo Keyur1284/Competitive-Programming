@@ -1,6 +1,6 @@
 // Problem Link :- https://leetcode.com/problems/non-overlapping-intervals/
 
-// Solved greedily (Sorting by endtime)
+// Solved by Sorting
 // Time Complexity :- O(nlogn)
 // Space Complexity :- O(logn)
 
@@ -31,5 +31,117 @@ public:
         }
 
         return del;
+    }
+};
+
+
+
+class Solution {
+public:  
+
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        
+        sort(intervals.begin(), intervals.end());
+        int nonOverlapCount = 1, minEnd = INT_MAX;
+
+        for (auto &interval : intervals)
+        {
+            if (interval[0] >= minEnd)
+            {
+                nonOverlapCount++;
+                minEnd = interval[1];
+            }
+
+            else
+            {
+                minEnd = min(minEnd, interval[1]);
+            }
+        }
+
+        return intervals.size() - nonOverlapCount;
+    }
+};
+
+
+
+class Solution {
+public:  
+
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        
+        sort(intervals.begin(), intervals.end());
+        int overlapCount = -1, minEnd = INT_MAX;
+
+        for (auto &interval : intervals)
+        {
+            if (interval[0] >= minEnd)
+            {
+                minEnd = interval[1];
+            }
+
+            else
+            {
+                overlapCount++;
+                minEnd = min(minEnd, interval[1]);
+            }
+        }
+
+        return overlapCount;
+    }
+};
+
+
+
+class Solution {
+public:  
+
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        
+        sort(intervals.begin(), intervals.end());
+        int overlapCount = 0, minEnd = INT_MAX;
+
+        for (auto &interval : intervals)
+        {
+            if (interval[0] >= minEnd)
+            {
+                minEnd = interval[1];
+            }
+
+            else
+            {
+                overlapCount += (minEnd != INT_MAX);
+                minEnd = min(minEnd, interval[1]);
+            }
+        }
+
+        return overlapCount;
+    }
+};
+
+
+
+class Solution {
+public:  
+
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        
+        sort(intervals.begin(), intervals.end());
+        int overlapCount = 0, minEnd = INT_MAX;
+
+        for (auto &interval : intervals)
+        {
+            if (interval[0] >= minEnd)
+            {
+                minEnd = interval[1];
+            }
+
+            else
+            {
+                overlapCount++;
+                minEnd = min(minEnd, interval[1]);
+            }
+        }
+
+        return overlapCount - 1;
     }
 };
