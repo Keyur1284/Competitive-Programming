@@ -190,7 +190,7 @@ using ordered_set = tree<type, null_type, comp, rb_tree_tag, tree_order_statisti
 order_of_key (key) 	returns the no. of elements strictly less than key
 find_by_order (index) 	returns the iterator to the element at index (0-based)
 
-// Use this function to erase elements in case of mutiset
+// Use this function to erase elements in case of multiset
 template<typename type, typename comp>
 bool erase(ordered_set<type, comp> &os, type val)
 {
