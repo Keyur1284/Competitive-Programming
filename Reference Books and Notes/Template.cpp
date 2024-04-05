@@ -50,8 +50,33 @@ const ll MOD2 = 998244353;
 #define trav(it, a) for (auto &it : a)
 using namespace std;
 using namespace __gnu_pbds; 
-template <class T> using minpq = priority_queue<T, vector<T>, greater<T>>;
-template <class T> using ordered_set = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
+template <typename type>
+using minpq = priority_queue<type, vector<type>, greater<type>>; 
+template <typename type, typename comp = less<type>> 
+using ordered_set = tree<type, null_type, comp, rb_tree_tag, tree_order_statistics_node_update>;
+
+// Use this function to erase elements in case of mutiset
+template<typename type, typename comp>
+bool erase(ordered_set<type, comp> &os, type val)
+{
+    // Method 1
+
+    if (os.lower_bound(val) == os.upper_bound(val))
+        return false;
+    
+    os.erase(os.find_by_order(os.order_of_key(val)));
+    return true;
+
+    // Method 2
+
+    // auto it = os.upper_bound(val);
+
+    // if (it == os.end() || *it != val)
+    //     return false;
+
+    // os.erase(it);
+}
+
 // order_of_key (k) : Number of items strictly smaller than k
 // find_by_order(k) : K-th element in a set (counting from 0)
 
