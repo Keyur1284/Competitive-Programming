@@ -55,7 +55,7 @@ using minpq = priority_queue<type, vector<type>, greater<type>>;
 template <typename type, typename comp = less<type>> 
 using ordered_set = tree<type, null_type, comp, rb_tree_tag, tree_order_statistics_node_update>;
 
-// Use this function to erase elements in case of mutiset
+// Use this function to erase elements in case of multiset
 template<typename type, typename comp>
 bool erase(ordered_set<type, comp> &os, type val)
 {
