@@ -179,6 +179,43 @@ ms.erase(ms.find(num)) 		This will erase only first instance of the number. ;
 ms.erase(iterator)		This will erase only first instance at which the iterator is pointing
 
 
+ORDERED SET
+
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+template <typename type, typename comp = less<type>> 
+using ordered_set = tree<type, null_type, comp, rb_tree_tag, tree_order_statistics_node_update>;
+
+order_of_key (key) 	returns the no. of elements strictly less than key
+find_by_order (index) 	returns the iterator to the element at index (0-based)
+
+// Use this function to erase elements in case of mutiset
+template<typename type, typename comp>
+bool erase(ordered_set<type, comp> &os, type val)
+{
+    // Method 1
+
+    if (os.lower_bound(val) == os.upper_bound(val))
+        return false;
+    
+    os.erase(os.find_by_order(os.order_of_key(val)));
+    return true;
+
+    // Method 2
+
+    // auto it = os.upper_bound(val);
+
+    // if (it == os.end() || *it != val)
+    //     return false;
+
+    // os.erase(it);
+}
+
+Note :- In case of comp = less_equal and greater_equal, lower_bound works as upper_bound
+        and upper_bound works as lower_bound. Hence, if we want to erase an element
+        from the set, we need to use upper_bound instead of lower_bound.
+
 MAP
 
 Time complexity of operations = O(logn) ;
