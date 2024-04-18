@@ -103,3 +103,95 @@ public:
         return perimeter;
     }
 };
+
+
+
+// Solved using O(1) space
+// Time Complexity :- O(row * col)
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    int islandPerimeter(vector<vector<int>>& grid) {
+        
+        int row = grid.size(), col = grid[0].size();
+        int perimeter = 0;
+
+        for (int i = 0; i < row; i++)
+        {
+            for (int j = 0; j < col; j++)
+            {
+                if (!grid[i][j])
+                    continue;
+
+                perimeter += 4;
+
+                if (i > 0 && grid[i - 1][j])
+                    perimeter -= 2;
+
+                if (j > 0 && grid[i][j - 1])
+                    perimeter -= 2;
+            }
+        }
+
+        return perimeter;
+    }
+};
+
+
+
+class Solution {
+public:
+    int islandPerimeter(vector<vector<int>>& grid) {
+        
+        int row = grid.size(), col = grid[0].size();
+        int perimeter = 0, up, down, left, right;
+
+        for (int i = 0; i < row; i++)
+        {
+            for (int j = 0; j < col; j++)
+            {
+                if (!grid[i][j])
+                    continue;
+
+                up = i == 0 ? 0 : grid[i - 1][j];
+                down = i == row - 1 ? 0 : grid[i + 1][j];
+                left = j == 0 ? 0 : grid[i][j - 1];
+                right = j == col - 1 ? 0 : grid[i][j + 1];
+
+                perimeter += 4 - (up + down + left + right);
+            }
+        }
+
+        return perimeter;
+    }
+};
+
+
+
+class Solution {
+public:
+    int islandPerimeter(vector<vector<int>>& grid) {
+        
+        int row = grid.size(), col = grid[0].size();
+        int perimeter = 0, up, down, left, right;
+
+        for (int i = 0; i < row; i++)
+        {
+            for (int j = 0; j < col; j++)
+            {
+                if (!grid[i][j])
+                    continue;
+
+                up = i == 0 ? 1 : !grid[i - 1][j];
+                down = i == row - 1 ? 1 : !grid[i + 1][j];
+                left = j == 0 ? 1 : !grid[i][j - 1];
+                right = j == col - 1 ? 1 : !grid[i][j + 1];
+
+                perimeter += up + down + left + right;
+            }
+        }
+
+        return perimeter;
+    }
+};
