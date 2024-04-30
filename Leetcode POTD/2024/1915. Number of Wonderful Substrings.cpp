@@ -28,3 +28,31 @@ public:
         return answer;
     }
 };
+
+
+
+class Solution {
+public:
+    long long wonderfulSubstrings(string word) {
+        
+        int n = word.length(), mask = 0;
+        vector<long long> mp(1024, 0);
+        mp[mask]++;
+        long long answer = 0;
+
+        for (auto &it : word)
+        {
+            mask ^= (1 << (it - 'a'));
+            answer += mp[mask];
+
+            for (int bit = 0; bit < 10; bit++)
+            {
+                answer += mp[mask ^ (1 << bit)];
+            }
+
+            mp[mask]++;
+        }
+        
+        return answer;
+    }
+};
