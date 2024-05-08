@@ -89,3 +89,115 @@ public:
         return head;
     }
 };
+
+
+
+// Solved using Stack
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
+
+class Solution {
+public:
+    
+    ListNode* doubleIt(ListNode* head) {
+        
+        stack<int> st;
+        ListNode* curr = head;
+        
+        while (curr)
+        {
+            st.emplace(curr->val);
+            curr = curr->next;
+        }
+        
+        int carry = 0;
+        ListNode* newHead = NULL;
+
+        while (!st.empty() || carry) 
+        {
+            newHead = new ListNode(0, newHead);
+            
+            int sum = carry;
+
+            if (!st.empty())
+            {
+                sum += st.top() * 2;
+                st.pop();
+            }
+
+            newHead->val = sum % 10;
+            carry = sum / 10;
+        }
+        
+        return newHead;
+    }
+};
+
+
+
+// Solved by Two Pointers
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    
+    ListNode* doubleIt(ListNode* head) {
+        
+        ListNode* curr = head, *prev = NULL;
+
+        while (curr)
+        {
+            int twice = 2 * curr->val;
+
+            if (twice < 10)
+                curr->val = twice;
+            
+            else
+            {
+                curr->val = twice % 10;
+
+                if (prev)
+                    prev->val += 1;
+
+                else
+                    head = new ListNode(1, curr);
+            }
+
+            prev = curr;
+            curr = curr->next;
+        }
+
+        return head;
+    }
+};
+
+
+
+// Solved by Single Pointer
+// Time Complexity :- O(n)
+// Space Complexity :- O(1)
+
+class Solution {
+public:
+    
+    ListNode* doubleIt(ListNode* head) {
+        
+        if (head->val >= 5)
+            head = new ListNode(0, head);
+
+        ListNode* curr = head;
+
+        while (curr)
+        {
+            curr->val = (2 * curr->val) % 10;
+
+            if (curr->next && curr->next->val >= 5)
+                curr->val += 1;
+
+            curr = curr->next;  
+        }
+
+        return head;
+    }
+};
