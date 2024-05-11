@@ -41,3 +41,43 @@ public:
         return minCost;
     }
 };
+
+
+
+class Solution {
+public:
+    double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int k) {
+        
+        int n = wage.size();
+        double minCost = DBL_MAX, totalQuality = 0;
+        vector<pair<double, int>> wageQuality;
+
+        for (int i = 0; i < n; i++)
+        {
+            wageQuality.emplace_back(1.0 * wage[i]/quality[i], quality[i]);
+        } 
+
+        sort(wageQuality.begin(), wageQuality.end());
+
+        priority_queue<double> highQualityWorkers;
+
+        for (auto &worker : wageQuality)
+        {
+            totalQuality += worker.second;
+            highQualityWorkers.emplace(worker.second);
+
+            if (highQualityWorkers.size() > k)
+            {
+                totalQuality -= highQualityWorkers.top();
+                highQualityWorkers.pop();
+            }
+
+            if (highQualityWorkers.size() == k)
+            {
+                minCost = min(minCost, worker.first * totalQuality);
+            }
+        }
+
+        return minCost;
+    }
+};
