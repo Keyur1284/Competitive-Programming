@@ -19,6 +19,13 @@ int func (int index, int target, vector <vector <int>> &dp, vector<int> &num)
         else
             return 0;
     }
+
+    /*
+        Base Case can be also written as:
+
+        if (index == -1)
+            return (target == 0);
+    */ 
     
     if (dp[index][target] != -1)
         return dp[index][target];
