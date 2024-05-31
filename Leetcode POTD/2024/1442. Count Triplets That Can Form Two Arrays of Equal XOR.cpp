@@ -33,3 +33,32 @@ public:
         return triplets;
     }
 };
+
+
+
+// Solved using unordered_map
+// Time Complexity :- O(n)
+// Space Complexity :- O(n)
+
+class Solution {
+public:
+    int countTriplets(vector<int>& arr) {
+        
+        unordered_map<int, int> freq, prefXor;
+        int n = arr.size();
+        int triplets = 0;
+        int xorVal = 0;
+
+        freq[0] = 1;
+
+        for (int i = 0; i < n; i++)
+        {
+            xorVal ^= arr[i];
+            triplets += freq[xorVal] * i - prefXor[xorVal];
+            freq[xorVal]++;
+            prefXor[xorVal] += i + 1;
+        }
+
+        return triplets;
+    }
+};
