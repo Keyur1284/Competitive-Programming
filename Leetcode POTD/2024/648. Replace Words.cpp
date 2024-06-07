@@ -103,7 +103,7 @@ public:
 
         for (auto &it : word)
         {
-            if (node->containsKey(it) == NULL)
+            if (!node->containsKey(it))
                 node->put(it, new TrieNode());
 
             node = node->get(it);
@@ -119,7 +119,7 @@ public:
 
         for (auto &ch : word)
         {
-            if (node->containsKey(ch) == NULL || node->isEnd())
+            if (!node->containsKey(ch) || node->isEnd())
                 break;
 
             root += ch;
