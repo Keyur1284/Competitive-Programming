@@ -2,7 +2,7 @@
 
 // Solved using unordered_map
 // Time Complexity :- O(n)
-// Space Complexity :- O(n)
+// Space Complexity :- O(k)
 
 class Solution {
 public:
