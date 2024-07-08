@@ -10,7 +10,6 @@ class SparseTable {
 private:
     
     vector<vector<int>> st;
-    vector<int> logVec;
     int n, LOG = 0;
 
 public:
@@ -19,28 +18,19 @@ public:
     {
         n = nums.size();
 
-        // while ((1 << LOG) <= n)
-        //     LOG++;
+        while ((1 << LOG) <= n)
+            LOG++;
 
-        logVec.resize(n + 1);
-        logVec[1] = 0;
-
-        for (int i = 2; i <= n; i++)
-        {
-            logVec[i] = logVec[i / 2] + 1;
-        }
-
-        // st.resize(n, vector<int> (LOG));
-        st.resize(n, vector<int> (logVec[n] + 1));
+        st.resize(n, vector<int> (LOG + 1));
 
         for (int i = 0; i < n; i++)
         {
             st[i][0] = nums[i];
         }
 
-        for (int j = 1; j <= logVec[n]; j++)
+        for (int j = 1; j <= LOG; j++)
         {
-            for (int i = 0; i + (1 << j) <= n; i++)
+            for (int i = 0; i + (1 << j) - 1 < n; i++)
             {
                 st[i][j] = min(st[i][j - 1], st[i + (1 << (j - 1))][j - 1]);
             }
@@ -51,7 +41,7 @@ public:
     {
         int len = r - l + 1;
         // int j = log2(len);
-        int j = logVec[len];
+        int j = 31 - __builtin_clz(len);
         return min(st[l][j], st[r - (1 << j) + 1][j]);
     }
 };
