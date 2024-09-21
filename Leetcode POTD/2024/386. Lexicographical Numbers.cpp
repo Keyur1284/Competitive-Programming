@@ -11,13 +11,15 @@ public:
 
     void DFS(int num, int n)
     {
-        if (num > n)
-            return;
-
         order.emplace_back(num);
 
         for (int next = 0; next < 10; next++)
+        {
+            if (num * 10 + next > n)
+                return;
+
             DFS(num * 10 + next, n);
+        }
     }
 
     vector<int> lexicalOrder(int n) {
